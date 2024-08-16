@@ -1,4 +1,167 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0" version="24.7.7" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0" version="24.7.7" pages="3">
+  <diagram id="BIEB9jf4n6nX8FSQ3YAH" name="Top Level More Detail">
+    <mxGraphModel dx="1885" dy="2175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-6" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;b&gt;Backplane PCB&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Distributes power to the all systems will have buses (Vb, 12V, 9V, 5V, and 3.3V) theses will run the full lenght&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- For all power buses there will be capacitor banks, fuses, over voltage protection, reverse voltage protection, and status lights &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Routes power and connections between the boards (Hardware Board, ESC Carrier Board(s), Voltage Level Board)&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Has power connectors for powering off board systems (jetson, ethernet switch, Hydrophone Board) wiring harneses will connect. Should also have extra power connections for future expansion&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;-&amp;nbsp; &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+          <mxGeometry x="610" y="-710" width="600" height="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="35" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-1" value="Batteries" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;endArrow=baseDash;endFill=0;" edge="1" parent="1" source="VSuYyGYz3WBv4hTKSpt5-2" target="VSuYyGYz3WBv4hTKSpt5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-2" value="Management System" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-8" value="&lt;div&gt;&lt;b&gt;Hardware Board&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Holds Pi4 or Pi5&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Connects to the UART of ESC carrier boards over micro ros&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Drives 5V and 12V switching circuits&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Connects to temperature/ humidity sensor and battery level PCB over i2c&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Has breakout pins to drive servos and other devices from Pi GPIO&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Connects to IMU and possibly cameras over USB &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Takes all power busses and signals from backplane PCB&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Status lights&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Debug connections and extra plugins in-case we add some unexpected sensors&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Needs an AD converter for leak detection sensor&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Possibly would need to connect with hydrophone board &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Need circuit protection for powering the Pi through GPIO&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="650" y="-670" width="500" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VSuYyGYz3WBv4hTKSpt5-10" target="VSuYyGYz3WBv4hTKSpt5-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1300" y="-270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VSuYyGYz3WBv4hTKSpt5-10" target="VSuYyGYz3WBv4hTKSpt5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-26" value="UART" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VSuYyGYz3WBv4hTKSpt5-25">
+          <mxGeometry x="0.0123" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-10" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;ESC Carrier Board 2X&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- Holds 4in1 drone ESC and provides it with power&lt;/div&gt;&lt;div&gt;- Connects to thrusters through back plane PCB&lt;/div&gt;&lt;div&gt;- Holds embedded RP2040 witch connects to ESC PWM and Dshot then communicates with Pi on Hardware board with micro ROS over UART&lt;/div&gt;&lt;div&gt;- Pulls from Power Vb power rail on back plane &lt;br&gt;&lt;/div&gt;&lt;div&gt;-Status lights&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="652" y="-280" width="500" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-11" value="8X thursters" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="-310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VSuYyGYz3WBv4hTKSpt5-14" target="VSuYyGYz3WBv4hTKSpt5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-14" value="&lt;div&gt;&lt;b&gt;Kill Switch PCB&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- This will be an electro-mech hardware kill switch. It will either need to cut power to the power buss delivering power to the thrusters or possibly kill power to the RP2040 boards&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- This could either be a light gate or some type of magnetic read switch&amp;nbsp; &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="-210" width="410" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-22" value="&lt;div&gt;&lt;b&gt;Voltage Level PCB&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Monitor battery voltage level&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Display on a screen&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Report back to hardware board over I2C&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="660" y="35" width="155" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.998;entryY=0.822;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VSuYyGYz3WBv4hTKSpt5-4" target="VSuYyGYz3WBv4hTKSpt5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VSuYyGYz3WBv4hTKSpt5-27" target="VSuYyGYz3WBv4hTKSpt5-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-32" value="Ethernet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VSuYyGYz3WBv4hTKSpt5-31">
+          <mxGeometry x="0.2517" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-27" value="&lt;div&gt;&lt;b&gt;Jetson&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Will be used for all navigation and heavy processing. Will not interface with any hardware at all&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Connects to power from backplane&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Connects to ethernet switch&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- &lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-240" width="310" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VSuYyGYz3WBv4hTKSpt5-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="-1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-34" value="Surface side programing (quick disconnect)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VSuYyGYz3WBv4hTKSpt5-33">
+          <mxGeometry x="-0.0896" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-28" value="&lt;div&gt;&lt;b&gt;Ethernet Switch&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Used to network between all computers&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Allows easy plugin for interfacing topside&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Needs power from backplane&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-680" width="310" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.001;entryY=0.403;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VSuYyGYz3WBv4hTKSpt5-8" target="VSuYyGYz3WBv4hTKSpt5-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-30" value="Ethernet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VSuYyGYz3WBv4hTKSpt5-29">
+          <mxGeometry x="0.0081" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-35" value="DVL" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="-860" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.931;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VSuYyGYz3WBv4hTKSpt5-35" target="VSuYyGYz3WBv4hTKSpt5-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-37" value="Ethernet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VSuYyGYz3WBv4hTKSpt5-36">
+          <mxGeometry x="-0.3326" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.008;entryY=0.132;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VSuYyGYz3WBv4hTKSpt5-38" target="VSuYyGYz3WBv4hTKSpt5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-40" value="USB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VSuYyGYz3WBv4hTKSpt5-39">
+          <mxGeometry x="-0.1414" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-38" value="IMU" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="-680" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VSuYyGYz3WBv4hTKSpt5-41" target="VSuYyGYz3WBv4hTKSpt5-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1330" y="-415" />
+              <mxPoint x="1330" y="-460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-43" value="USB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VSuYyGYz3WBv4hTKSpt5-42">
+          <mxGeometry x="-0.5332" y="1" relative="1" as="geometry">
+            <mxPoint x="-91" y="-26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-41" value="&lt;div&gt;&lt;b&gt;Cameras&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Not sure if it would make more senses for theses to go to the Pi or Jetson&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="-480" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VSuYyGYz3WBv4hTKSpt5-44" target="VSuYyGYz3WBv4hTKSpt5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-46" value="I2C" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VSuYyGYz3WBv4hTKSpt5-45">
+          <mxGeometry x="-0.2313" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-44" value="&lt;div&gt;Pressure &lt;br&gt;&lt;/div&gt;&lt;div&gt;Sensor&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="-590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VSuYyGYz3WBv4hTKSpt5-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="654.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-49" value="3X Hydrphones" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VSuYyGYz3WBv4hTKSpt5-48">
+          <mxGeometry x="-0.1731" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="VSuYyGYz3WBv4hTKSpt5-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-51" value="?" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VSuYyGYz3WBv4hTKSpt5-50">
+          <mxGeometry x="0.1264" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSuYyGYz3WBv4hTKSpt5-47" value="Hydrophone Board" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="480" width="580" height="350" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="Top Level Overview" id="6pyfadpBm5F7DHnc36_n">
     <mxGraphModel dx="1364" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -61,8 +224,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="d4uq4NoTPH_K1tgktg9s" name="Page-2">
-    <mxGraphModel dx="1364" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="d4uq4NoTPH_K1tgktg9s" name="Old">
+    <mxGraphModel dx="2074" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
