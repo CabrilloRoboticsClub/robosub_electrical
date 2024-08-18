@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "TopLevelSID.kicad_pro",
+    "filename": "ESC_Board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -382,6 +382,15 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "f9b50dbd-55ed-489e-b8d0-e665ff6fc838",
+      "Root"
+    ],
+    [
+      "0e1085bb-6ea7-47e3-8852-7a9497063dfd",
+      "RP2040"
+    ]
+  ],
   "text_variables": {}
 }

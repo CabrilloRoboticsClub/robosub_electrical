@@ -1,0 +1,51 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f9b50dbd-55ed-489e-b8d0-e665ff6fc838")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 156.21 62.23)
+		(size 40.64 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0e1085bb-6ea7-47e3-8852-7a9497063dfd")
+		(property "Sheetname" "RP2040"
+			(at 156.21 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RP2040.kicad_sch"
+			(at 156.21 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESC_Board"
+				(path "/f9b50dbd-55ed-489e-b8d0-e665ff6fc838"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
