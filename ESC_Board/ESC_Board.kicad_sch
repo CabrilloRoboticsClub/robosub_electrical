@@ -4,10 +4,459 @@
 	(generator_version "8.0")
 	(uuid "f9b50dbd-55ed-489e-b8d0-e665ff6fc838")
 	(paper "A3")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 180.34 96.52) (xy 194.31 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e9539b0-30da-43de-b8e7-08163f7c5e54")
+	)
+	(wire
+		(pts
+			(xy 232.41 93.98) (xy 236.22 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fbf8f01-9745-41d4-8f28-d886e5b31742")
+	)
+	(wire
+		(pts
+			(xy 232.41 110.49) (xy 236.22 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "701b2515-7957-4578-822e-fe14472a5635")
+	)
+	(wire
+		(pts
+			(xy 177.8 119.38) (xy 194.31 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92804bb5-6db9-4f3f-8670-f89c97032e0b")
+	)
+	(wire
+		(pts
+			(xy 186.69 142.24) (xy 194.31 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95042017-a57e-4bad-9374-505a97f2fd89")
+	)
+	(wire
+		(pts
+			(xy 186.69 132.08) (xy 194.31 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fa7532e-5f50-4da3-bb0c-f553292ab3c2")
+	)
+	(wire
+		(pts
+			(xy 180.34 99.06) (xy 194.31 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac2d2606-c9f1-4fa2-8a6c-e46f9698d382")
+	)
+	(wire
+		(pts
+			(xy 232.41 88.9) (xy 236.22 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b089a0da-dc00-4271-9b80-b06714cb6294")
+	)
+	(wire
+		(pts
+			(xy 177.8 113.03) (xy 177.8 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b639f795-f7ec-46cc-9bfa-5022a76b4da0")
+	)
+	(wire
+		(pts
+			(xy 186.69 134.62) (xy 194.31 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1b038cb-083f-4096-afe5-7b7a47a52598")
+	)
+	(wire
+		(pts
+			(xy 232.41 96.52) (xy 236.22 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ca7617-26fd-46d1-8d25-2bb691a9247e")
+	)
+	(wire
+		(pts
+			(xy 232.41 91.44) (xy 236.22 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc3f0abb-d9c5-455f-92bb-0738075858d0")
+	)
+	(wire
+		(pts
+			(xy 232.41 107.95) (xy 236.22 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3923d0f-c0fe-4bb8-9de4-f9d55ca18bef")
+	)
+	(label "UART1_TX"
+		(at 180.34 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b137b57-83b8-4967-bddd-8d423dc03483")
+	)
+	(label "ESC3"
+		(at 236.22 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "21ea1b77-433a-447b-832e-63082e46105c")
+	)
+	(label "SWCLK"
+		(at 186.69 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "65c135ec-ebf8-44f6-8434-ae266b14e4bc")
+	)
+	(label "DSHOT 2"
+		(at 236.22 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "69d6e794-8e32-4419-a3db-1d2dd5e18f44")
+	)
+	(label "ESC2"
+		(at 236.22 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d9a4d9b-37b6-4703-8e61-ef74012d88cc")
+	)
+	(label "DSHOT 1"
+		(at 236.22 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "74d40079-385d-4d70-914c-c28a4d593109")
+	)
+	(label "SWD"
+		(at 186.69 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "98dedd8f-347a-4722-97e8-702137847bac")
+	)
+	(label "ESC_0"
+		(at 236.22 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b113565e-2038-484e-8ba8-1022b2ce53c3")
+	)
+	(label "RUN"
+		(at 186.69 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "befca859-5c6f-43f1-8594-5a0744d7d1d1")
+	)
+	(label "UART1_RX"
+		(at 180.34 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d61cbd0a-e342-4208-b64d-22d8475f0e8c")
+	)
+	(label "ESC1"
+		(at 236.22 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f823e81f-f959-4287-a46d-aa36812a80c6")
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 177.8 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7175fef5-03c7-40d2-abe1-832e6fe13f86")
+		(property "Reference" "#PWR031"
+			(at 177.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 177.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 177.8 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "343ef222-e437-4d47-ac6b-e81b62793e43")
+		)
+		(instances
+			(project ""
+				(path "/f9b50dbd-55ed-489e-b8d0-e665ff6fc838"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 156.21 62.23)
-		(size 40.64 22.86)
+		(at 194.31 78.74)
+		(size 38.1 66.04)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -18,7 +467,7 @@
 		)
 		(uuid "0e1085bb-6ea7-47e3-8852-7a9497063dfd")
 		(property "Sheetname" "RP2040"
-			(at 156.21 61.5184 0)
+			(at 194.31 78.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,13 +476,133 @@
 			)
 		)
 		(property "Sheetfile" "RP2040.kicad_sch"
-			(at 156.21 85.6746 0)
+			(at 194.31 145.3646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "RUN" input
+			(at 194.31 142.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5fcfedeb-83df-4344-b0a1-382559bebbff")
+		)
+		(pin "SWCLK" input
+			(at 194.31 134.62 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3f88c1f7-ca6c-478e-ac03-a3570822823f")
+		)
+		(pin "SWD" input
+			(at 194.31 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "62ad73e7-48db-4b1c-b52a-cf47cbf7b464")
+		)
+		(pin "GPIO2_PWM2_ESC" input
+			(at 232.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "301c9668-d2cf-42ec-b4fd-9915de405413")
+		)
+		(pin "GPIO3_PWM3_ESC" input
+			(at 232.41 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "86583cba-8de1-448f-ab8b-1bf5bcb3159b")
+		)
+		(pin "GPIO1_PWM1_ESC" input
+			(at 232.41 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e8b243ec-c9a2-47b5-a3c0-2272472a9772")
+		)
+		(pin "GPIO0_PWM0_ESC" input
+			(at 232.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a7e3ee28-d8f2-45f2-bd43-54c3db2c13d8")
+		)
+		(pin "UART1_TX" input
+			(at 194.31 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "04dbd728-2b20-4c95-aff8-d42f58ae1962")
+		)
+		(pin "DSHOT 1" input
+			(at 232.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "09b8f30f-9b50-4a95-b297-7fc5c1013824")
+		)
+		(pin "DSHOT 2" input
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bc2070ee-37a3-4bc3-a540-83837d112e95")
+		)
+		(pin "UART1_RX" input
+			(at 194.31 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fc16fc83-aafc-4b23-bbff-849fe30e2327")
+		)
+		(pin "5V" input
+			(at 194.31 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9f7b6a90-4340-4bbc-a37d-57618e59fdba")
 		)
 		(instances
 			(project "ESC_Board"
