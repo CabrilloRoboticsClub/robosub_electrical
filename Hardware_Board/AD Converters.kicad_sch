@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "899c1d05-80d7-483e-b199-cc119ffaccd0")
+	(paper "A3")
+	(title_block
+		(date "2024-08-22")
+		(rev "1")
+		(company "Cabrillo Robotics Club")
+		(comment 1 "High level overview (IsaacWax)")
+	)
+	(lib_symbols)
+)

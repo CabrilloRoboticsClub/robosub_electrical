@@ -1,0 +1,154 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4b3e48be-65ba-4d0a-a1db-abb25b7e04e5")
+	(paper "A3")
+	(title_block
+		(title "Hardware Board")
+		(date "2024-08-22")
+		(rev "1")
+		(company "Cabrillo Robotics Club")
+		(comment 1 "High level overview (IsaacWax)")
+	)
+	(lib_symbols)
+	(sheet
+		(at 294.64 46.99)
+		(size 34.29 52.07)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 150 218 1.0000)
+		)
+		(uuid "6abc83a1-1407-4700-9fa3-d4e7a578b5b5")
+		(property "Sheetname" "RASPBERRY PI"
+			(at 294.64 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RASPBERRY PI.kicad_sch"
+			(at 294.64 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA1" input
+			(at 328.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4f32c525-b134-4165-9f65-f9837d9363bf")
+		)
+		(pin "SCL1" input
+			(at 328.93 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "646c5f28-0490-490f-891b-ceba2afdbd10")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 45.72)
+		(size 43.18 54.61)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 162 160 255 1.0000)
+		)
+		(uuid "a07f948f-e10d-45c1-bf30-4ddf6370e535")
+		(property "Sheetname" "AD Converters"
+			(at 78.74 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AD Converters.kicad_sch"
+			(at 78.74 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 191.77 45.72)
+		(size 38.1 54.61)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 179 108 255 1.0000)
+		)
+		(uuid "a7d6e487-5aa1-4388-99a1-443b91f3b4fe")
+		(property "Sheetname" "Switching"
+			(at 191.77 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Switching.kicad_sch"
+			(at 191.77 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
