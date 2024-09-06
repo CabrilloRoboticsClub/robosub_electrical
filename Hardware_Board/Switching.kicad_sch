@@ -151,97 +151,6 @@
 				)
 			)
 		)
-		(symbol "Adafruit MOSFET Driver STEMMA Breakout-eagle-import:GND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#GND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Adafruit MOSFET Driver STEMMA Breakout:"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_1_0"
-				(polyline
-					(pts
-						(xy -1.905 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Adafruit MOSFET Driver STEMMA Breakout-eagle-import:RESISTOR_0603_NOOUT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1604,6 +1513,12 @@
 		)
 	)
 	(junction
+		(at 334.01 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03e9ac8e-d3bd-4f76-a8c1-df42887a854d")
+	)
+	(junction
 		(at 375.92 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1616,10 +1531,28 @@
 		(uuid "0dafcd6e-b74b-4807-a4da-f5052967cdcc")
 	)
 	(junction
-		(at 41.91 246.38)
+		(at 44.45 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "104fb979-6756-4cfb-a2d6-bd6e624f18ad")
+	)
+	(junction
+		(at 349.25 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14e59f9a-5b28-4546-bad3-4f662789fe68")
+	)
+	(junction
+		(at 151.13 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e6e9204-d8c5-48cd-8d53-2da0dedfd470")
+	)
+	(junction
+		(at 29.21 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f0bdaba-24fc-4a29-91f5-ecb0b9b17639")
 	)
 	(junction
 		(at 283.21 44.45)
@@ -1628,16 +1561,40 @@
 		(uuid "2616b4e4-9794-402f-b9f9-ae035f3c6fbe")
 	)
 	(junction
+		(at 269.24 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "328080a0-7238-4576-8d57-af88789a2288")
+	)
+	(junction
+		(at 269.24 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34f15600-f4dd-45c2-be24-51e90da8fc75")
+	)
+	(junction
 		(at 255.27 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3abb9d07-2f94-4d48-b557-bad2b388b4b2")
 	)
 	(junction
+		(at 241.3 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46ad91d6-4520-41c5-859f-25dd7f630cd5")
+	)
+	(junction
 		(at 283.21 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ca386b6-eb84-477a-85e9-fbb8768f5a27")
+	)
+	(junction
+		(at 269.24 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51b72d47-91b7-4cf8-a27c-485c3a0a375c")
 	)
 	(junction
 		(at 283.21 55.88)
@@ -1652,6 +1609,18 @@
 		(uuid "541a0c35-4990-44d5-ad2b-185946051fb2")
 	)
 	(junction
+		(at 361.95 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "554c11d9-5fe8-45b7-8d5b-975bca8adf03")
+	)
+	(junction
+		(at 163.83 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5587f9cd-afa0-4b8a-a2df-467c05ef645e")
+	)
+	(junction
 		(at 283.21 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1662,6 +1631,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fc5bf2d-4807-412d-b496-13f8ca6208ff")
+	)
+	(junction
+		(at 163.83 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63b23038-6930-4650-a00d-cf3998d20d21")
 	)
 	(junction
 		(at 363.22 63.5)
@@ -1688,7 +1663,7 @@
 		(uuid "7f67425a-2fd3-46fe-8124-585fa5d5fc9d")
 	)
 	(junction
-		(at 69.85 223.52)
+		(at 72.39 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fa689a6-732c-4d83-ac15-4715a631ea14")
@@ -1706,19 +1681,61 @@
 		(uuid "9493fe82-61e7-415f-bcab-563f82840f63")
 	)
 	(junction
+		(at 361.95 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c05e932-5423-4d3e-8c1d-6f13349c1f4a")
+	)
+	(junction
+		(at 135.89 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cbf712c-8540-4ba7-a1d0-8addab1f2f86")
+	)
+	(junction
+		(at 163.83 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f4b2942-c2f4-475b-b837-83a22b58ac93")
+	)
+	(junction
+		(at 256.54 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a87fd5a4-569b-45a6-9a3d-cc6c97c1f024")
+	)
+	(junction
 		(at 375.92 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a933c57d-28e7-4761-b91f-ee25caa347b7")
 	)
 	(junction
-		(at 69.85 227.33)
+		(at 269.24 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae580273-482b-4f57-8959-2d12b4c1b100")
+	)
+	(junction
+		(at 226.06 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba41cc46-5d5e-4857-9a73-6dea91363814")
+	)
+	(junction
+		(at 120.65 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcff6d44-d0b9-4639-8db5-9a32562cb05e")
+	)
+	(junction
+		(at 72.39 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c43455a0-7835-4e55-966f-7f27891172db")
 	)
 	(junction
-		(at 69.85 212.09)
+		(at 72.39 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c472e6ea-4fe8-49aa-86ed-a82bd2255e17")
@@ -1736,13 +1753,19 @@
 		(uuid "c9414a6e-997c-41c8-ac71-969c40825d0f")
 	)
 	(junction
+		(at 318.77 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca4e8beb-4e7d-4fa5-b8e9-81028e1a3863")
+	)
+	(junction
 		(at 59.69 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb3b9227-1ce0-44aa-a695-0121a00f34ed")
 	)
 	(junction
-		(at 69.85 236.22)
+		(at 72.39 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbc58f15-9fb6-41a4-b562-8e75e0eb54da")
@@ -1752,6 +1775,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddd9bfe7-d812-461a-9606-0c11cf4c3661")
+	)
+	(junction
+		(at 361.95 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de06106e-b441-407c-af07-255c9b0043bb")
 	)
 	(junction
 		(at 347.98 63.5)
@@ -1778,10 +1807,22 @@
 		(uuid "f99db9c5-2a85-43a6-ac09-857ae32a4bb9")
 	)
 	(junction
-		(at 57.15 246.38)
+		(at 59.69 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fafcaa40-223c-485d-8f1b-76ecb6bbc304")
+	)
+	(junction
+		(at 163.83 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb9d25c4-04f0-46af-8b36-977d5f33d393")
+	)
+	(junction
+		(at 361.95 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff6ec322-46e1-407d-98d0-8a99fd45c4a9")
 	)
 	(wire
 		(pts
@@ -1805,6 +1846,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 204.47) (xy 361.95 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "039635fa-0326-4273-8f34-ca7afa59545b")
+	)
+	(wire
+		(pts
 			(xy 375.92 54.61) (xy 375.92 55.88)
 		)
 		(stroke
@@ -1822,6 +1873,16 @@
 			(type default)
 		)
 		(uuid "079dc125-be3c-4ea6-88ae-9f57ff0c9a34")
+	)
+	(wire
+		(pts
+			(xy 241.3 196.85) (xy 256.54 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "087dc745-d261-401f-8e13-12544066fd55")
 	)
 	(wire
 		(pts
@@ -1845,7 +1906,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 212.09) (xy 69.85 223.52)
+			(xy 163.83 187.96) (xy 163.83 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5472b9-377a-4de0-8726-ed2414d9abae")
+	)
+	(wire
+		(pts
+			(xy 72.39 162.56) (xy 72.39 173.99)
 		)
 		(stroke
 			(width 0)
@@ -1875,6 +1946,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 189.23) (xy 176.53 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f865f1-be72-4c0e-b948-91e5c720cfdb")
+	)
+	(wire
+		(pts
 			(xy 240.03 63.5) (xy 255.27 63.5)
 		)
 		(stroke
@@ -1892,6 +1973,16 @@
 			(type default)
 		)
 		(uuid "130ac63e-cff0-4550-a46d-db1be538b407")
+	)
+	(wire
+		(pts
+			(xy 184.15 151.13) (xy 184.15 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14538391-0467-4676-b2e6-bf0f8feb5e42")
 	)
 	(wire
 		(pts
@@ -1925,6 +2016,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 196.85) (xy 261.62 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18bb5dbc-a84b-433d-b7ef-4ef7a8b8f52a")
+	)
+	(wire
+		(pts
 			(xy 364.49 44.45) (xy 375.92 44.45)
 		)
 		(stroke
@@ -1935,13 +2036,23 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 246.38) (xy 57.15 246.38)
+			(xy 44.45 196.85) (xy 59.69 196.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "19adad10-d2ea-4e1e-8d23-2d08a0228aa2")
+	)
+	(wire
+		(pts
+			(xy 382.27 148.59) (xy 382.27 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1adef398-5a0b-427e-83ea-d8c3b68de712")
 	)
 	(wire
 		(pts
@@ -1955,6 +2066,26 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 186.69) (xy 281.94 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b8b3dae-b3be-49bd-a3f6-b287232e8913")
+	)
+	(wire
+		(pts
+			(xy 318.77 173.99) (xy 332.74 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d44cbf6-5b0d-4bc5-bdb4-8529b1993ca5")
+	)
+	(wire
+		(pts
 			(xy 138.43 63.5) (xy 153.67 63.5)
 		)
 		(stroke
@@ -1962,6 +2093,26 @@
 			(type default)
 		)
 		(uuid "2122ce7c-437c-4dd3-a1f0-d5f37ab82160")
+	)
+	(wire
+		(pts
+			(xy 269.24 186.69) (xy 269.24 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22d9c591-46f3-47d7-836a-3fb55dca6082")
+	)
+	(wire
+		(pts
+			(xy 369.57 156.21) (xy 382.27 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23109d39-9fd0-4ada-8343-cc6b166734fa")
 	)
 	(wire
 		(pts
@@ -1975,6 +2126,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 176.53) (xy 163.83 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24897c99-940b-43af-bf46-8c61a50838d2")
+	)
+	(wire
+		(pts
 			(xy 153.67 63.5) (xy 153.67 72.39)
 		)
 		(stroke
@@ -1982,6 +2143,26 @@
 			(type default)
 		)
 		(uuid "25af3f6e-829b-436e-8ec0-4baa19e1d3c2")
+	)
+	(wire
+		(pts
+			(xy 151.13 201.93) (xy 151.13 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2628e6c3-59a8-41db-a159-0a5cab1eac9f")
+	)
+	(wire
+		(pts
+			(xy 226.06 177.8) (xy 226.06 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26940d1c-99e1-4736-963b-fd4911e44dca")
 	)
 	(wire
 		(pts
@@ -2005,6 +2186,26 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 162.56) (xy 226.06 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "295f3b5e-342d-40a4-98e5-2690024ccce1")
+	)
+	(wire
+		(pts
+			(xy 269.24 156.21) (xy 269.24 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2abfe4e2-3321-4e9c-9488-d9bdfd66519a")
+	)
+	(wire
+		(pts
 			(xy 295.91 55.88) (xy 295.91 53.34)
 		)
 		(stroke
@@ -2015,7 +2216,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 265.43) (xy 41.91 264.16)
+			(xy 44.45 215.9) (xy 44.45 214.63)
 		)
 		(stroke
 			(width 0)
@@ -2045,6 +2246,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 199.39) (xy 151.13 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f95f17-d19c-4adc-b6e3-bf385f4b2ba9")
+	)
+	(wire
+		(pts
 			(xy 74.93 67.31) (xy 74.93 64.77)
 		)
 		(stroke
@@ -2052,6 +2263,36 @@
 			(type default)
 		)
 		(uuid "361cd17d-cfc6-4bb8-8736-959b325ab70b")
+	)
+	(wire
+		(pts
+			(xy 318.77 162.56) (xy 354.33 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "365797f5-adb9-40e2-989d-7990ea1b0ad2")
+	)
+	(wire
+		(pts
+			(xy 374.65 186.69) (xy 374.65 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "367138c6-6eb5-4535-b6fc-bf101e2189e1")
+	)
+	(wire
+		(pts
+			(xy 361.95 185.42) (xy 361.95 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "367be681-686c-4afe-bf3b-bd106b944de3")
 	)
 	(wire
 		(pts
@@ -2093,6 +2334,16 @@
 		)
 		(uuid "37e93e90-6371-40b7-a9b7-52de469a1b58")
 	)
+	(wire
+		(pts
+			(xy 334.01 196.85) (xy 334.01 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38cc4664-4eb4-499a-9ef7-e492f0cf824b")
+	)
 	(polyline
 		(pts
 			(xy 12.7 110.49) (xy 407.67 110.49)
@@ -2105,13 +2356,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 223.52) (xy 40.64 223.52)
+			(xy 120.65 165.1) (xy 156.21 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3aea4295-9e3e-4dfa-8024-0bbdbf4a0949")
+		(uuid "39ab9d47-762f-4f5d-bd56-d35e0099bf59")
 	)
 	(wire
 		(pts
@@ -2135,6 +2386,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 162.56) (xy 29.21 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef8cd59-2ae6-4ab8-8604-a66df6ddd8a3")
+	)
+	(wire
+		(pts
 			(xy 74.93 80.01) (xy 74.93 77.47)
 		)
 		(stroke
@@ -2145,7 +2406,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 223.52) (xy 69.85 223.52)
+			(xy 60.96 173.99) (xy 72.39 173.99)
 		)
 		(stroke
 			(width 0)
@@ -2165,6 +2426,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 173.99) (xy 43.18 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4228b6f6-8c3d-4d3e-a78f-ada3c594cd6b")
+	)
+	(wire
+		(pts
 			(xy 106.68 25.4) (xy 97.79 25.4)
 		)
 		(stroke
@@ -2175,6 +2446,36 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 162.56) (xy 318.77 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4429ce43-11db-4ef6-bc65-67a90307e490")
+	)
+	(wire
+		(pts
+			(xy 120.65 180.34) (xy 120.65 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44595aab-2967-40eb-8923-02f240e4ae60")
+	)
+	(wire
+		(pts
+			(xy 350.52 173.99) (xy 361.95 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44d07ba2-3f04-4f1f-9e28-d4cd61516dc5")
+	)
+	(wire
+		(pts
 			(xy 59.69 64.77) (xy 59.69 73.66)
 		)
 		(stroke
@@ -2182,6 +2483,16 @@
 			(type default)
 		)
 		(uuid "456665f1-1fe7-4b82-b175-275d4862f15f")
+	)
+	(wire
+		(pts
+			(xy 44.45 224.79) (xy 44.45 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46301070-07c6-4b6f-9b55-db8556d29656")
 	)
 	(wire
 		(pts
@@ -2202,6 +2513,16 @@
 			(type default)
 		)
 		(uuid "4824ba60-9337-4786-a4ab-30093b34eb9b")
+	)
+	(wire
+		(pts
+			(xy 269.24 177.8) (xy 281.94 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48cfbbd3-98df-409a-96f0-066e4dba5be0")
 	)
 	(wire
 		(pts
@@ -2245,6 +2566,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 199.39) (xy 135.89 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b7b1481-48d9-44d4-8ee1-d7bb86225f9d")
+	)
+	(wire
+		(pts
 			(xy 87.63 25.4) (xy 90.17 25.4)
 		)
 		(stroke
@@ -2255,13 +2586,33 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 231.14) (xy 86.36 231.14)
+			(xy 361.95 162.56) (xy 361.95 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8ef0cf-a5c7-4fd7-9873-ca29cab471bc")
+	)
+	(wire
+		(pts
+			(xy 85.09 181.61) (xy 88.9 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4cb331f6-a84f-42a4-b957-0445cb2e6ff3")
+	)
+	(wire
+		(pts
+			(xy 374.65 181.61) (xy 378.46 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e17fc67-2836-46a8-a9e8-ca255cb4fbf9")
 	)
 	(wire
 		(pts
@@ -2285,13 +2636,23 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 198.12) (xy 90.17 205.74)
+			(xy 92.71 148.59) (xy 92.71 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4f873a93-a126-484f-9d81-4710244a106b")
+	)
+	(wire
+		(pts
+			(xy 281.94 184.15) (xy 285.75 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5011c9c8-5e6c-4119-a256-d0d31b42b396")
 	)
 	(wire
 		(pts
@@ -2325,7 +2686,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 246.38) (xy 41.91 246.38)
+			(xy 33.02 196.85) (xy 44.45 196.85)
 		)
 		(stroke
 			(width 0)
@@ -2355,6 +2716,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 173.99) (xy 361.95 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5719d89c-476e-4457-9595-ea4c23ad1bad")
+	)
+	(wire
+		(pts
 			(xy 375.92 24.13) (xy 375.92 26.67)
 		)
 		(stroke
@@ -2375,13 +2746,43 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 246.38) (xy 41.91 255.27)
+			(xy 44.45 196.85) (xy 44.45 205.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5bafe14d-4ba0-4640-b759-346073ca2145")
+	)
+	(wire
+		(pts
+			(xy 29.21 162.56) (xy 64.77 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df2ab8e-bbdc-457e-b15d-42b04683698a")
+	)
+	(wire
+		(pts
+			(xy 256.54 209.55) (xy 256.54 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f28b703-79cb-4055-8030-64e6a2518d44")
+	)
+	(wire
+		(pts
+			(xy 120.65 165.1) (xy 120.65 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fdc7b99-a9b3-4b04-8cfb-292dcc4065d4")
 	)
 	(wire
 		(pts
@@ -2425,7 +2826,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 236.22) (xy 82.55 233.68)
+			(xy 85.09 186.69) (xy 85.09 184.15)
 		)
 		(stroke
 			(width 0)
@@ -2442,6 +2843,26 @@
 			(type default)
 		)
 		(uuid "6393eaa5-b7ae-44d6-b9bb-9bcc3e801c8a")
+	)
+	(wire
+		(pts
+			(xy 349.25 196.85) (xy 354.33 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "639f3381-1d8d-4531-92d4-38d68cd307ea")
+	)
+	(wire
+		(pts
+			(xy 226.06 162.56) (xy 261.62 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63abdb2f-31c2-4723-b917-35b0ed39e1fa")
 	)
 	(wire
 		(pts
@@ -2465,7 +2886,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 205.74) (xy 90.17 205.74)
+			(xy 80.01 156.21) (xy 92.71 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2475,13 +2896,43 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 227.33) (xy 82.55 231.14)
+			(xy 120.65 176.53) (xy 134.62 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a675f54-ac10-4fff-9c20-250809fe123d")
+	)
+	(wire
+		(pts
+			(xy 374.65 184.15) (xy 378.46 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c8f09dd-5e8e-4214-a47c-babc924d69e2")
+	)
+	(wire
+		(pts
+			(xy 85.09 177.8) (xy 85.09 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6d02cad2-09c7-433a-b6da-ac60b50ccff9")
+	)
+	(wire
+		(pts
+			(xy 229.87 196.85) (xy 241.3 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "703e14a3-e7c4-430c-b08f-14c710d8dba3")
 	)
 	(wire
 		(pts
@@ -2515,7 +2966,47 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 223.52) (xy 69.85 227.33)
+			(xy 269.24 204.47) (xy 269.24 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73f65ec9-d857-460f-a2fd-99d16aca125a")
+	)
+	(wire
+		(pts
+			(xy 334.01 224.79) (xy 334.01 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74416c3c-fa87-4df1-b4cd-a11c32dcf585")
+	)
+	(wire
+		(pts
+			(xy 135.89 227.33) (xy 135.89 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b45d18-8f2a-43e8-853d-95db0b01ac69")
+	)
+	(wire
+		(pts
+			(xy 318.77 177.8) (xy 318.77 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77a6356a-4737-4d05-bce8-8f436eac9584")
+	)
+	(wire
+		(pts
+			(xy 72.39 173.99) (xy 72.39 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2525,13 +3016,33 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 236.22) (xy 69.85 241.3)
+			(xy 72.39 186.69) (xy 72.39 191.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "79964ade-4f88-408d-b29a-04e187cc3478")
+	)
+	(wire
+		(pts
+			(xy 269.24 185.42) (xy 269.24 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f23da3d-560a-4326-96ef-fc4a876274be")
+	)
+	(wire
+		(pts
+			(xy 151.13 212.09) (xy 151.13 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8321f93b-cce8-45f0-8add-a03cf6dc7e97")
 	)
 	(wire
 		(pts
@@ -2565,6 +3076,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 224.79) (xy 241.3 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "873268cf-771b-4ce5-8fea-5f3f9ddb2e29")
+	)
+	(wire
+		(pts
 			(xy 266.7 26.67) (xy 266.7 27.94)
 		)
 		(stroke
@@ -2582,6 +3103,16 @@
 			(type default)
 		)
 		(uuid "887819a8-04d2-4f33-9aed-ff304b50a973")
+	)
+	(wire
+		(pts
+			(xy 151.13 199.39) (xy 156.21 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b84736d-b05d-4808-9cc6-125c1739ac7c")
 	)
 	(wire
 		(pts
@@ -2605,6 +3136,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 181.61) (xy 285.75 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ebbb317-c98e-4caa-b700-a24a68d7dafb")
+	)
+	(wire
+		(pts
 			(xy 283.21 26.67) (xy 283.21 44.45)
 		)
 		(stroke
@@ -2625,6 +3166,26 @@
 	)
 	(wire
 		(pts
+			(xy 334.01 196.85) (xy 349.25 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f2795d-09f9-440f-a3ed-beb8e8754ecb")
+	)
+	(wire
+		(pts
+			(xy 152.4 176.53) (xy 163.83 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94d96e80-5d3d-4dcf-a57a-0b248b4f33ed")
+	)
+	(wire
+		(pts
 			(xy 194.31 55.88) (xy 194.31 53.34)
 		)
 		(stroke
@@ -2632,6 +3193,16 @@
 			(type default)
 		)
 		(uuid "9612e213-d550-44fa-97a3-bb5d6a0232cf")
+	)
+	(wire
+		(pts
+			(xy 361.95 156.21) (xy 361.95 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97b175bb-4396-4290-9d0b-fa98da284f6f")
 	)
 	(wire
 		(pts
@@ -2665,13 +3236,13 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 255.27) (xy 57.15 256.54)
+			(xy 163.83 158.75) (xy 163.83 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e0b2706-6409-4a45-8e0d-71b210462190")
+		(uuid "9e20ce70-f927-42c2-929a-8be12b1e7d2b")
 	)
 	(wire
 		(pts
@@ -2695,6 +3266,56 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 177.8) (xy 374.65 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a03e9290-38db-4015-a1c5-a41b42a7ec8d")
+	)
+	(wire
+		(pts
+			(xy 281.94 186.69) (xy 281.94 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a258d641-265b-4b2b-8a73-6eda81fae99f")
+	)
+	(wire
+		(pts
+			(xy 256.54 199.39) (xy 256.54 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a55b9c90-a119-4b86-8fba-816ee1e69b09")
+	)
+	(wire
+		(pts
+			(xy 322.58 196.85) (xy 334.01 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6d253d3-0992-4579-8c27-125a71bda900")
+	)
+	(wire
+		(pts
+			(xy 29.21 177.8) (xy 29.21 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7352971-f323-44bb-97e5-32dee7b9fe0f")
+	)
+	(wire
+		(pts
 			(xy 283.21 55.88) (xy 295.91 55.88)
 		)
 		(stroke
@@ -2702,6 +3323,26 @@
 			(type default)
 		)
 		(uuid "a8e4ad3d-adb3-485d-889d-e6fbb3169478")
+	)
+	(wire
+		(pts
+			(xy 176.53 184.15) (xy 180.34 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad95a18d-079d-4272-ae26-89f067a7b0c6")
+	)
+	(wire
+		(pts
+			(xy 334.01 215.9) (xy 334.01 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae98c542-3748-40af-b6ab-35c9fc870606")
 	)
 	(wire
 		(pts
@@ -2735,13 +3376,23 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 246.38) (xy 62.23 246.38)
+			(xy 59.69 196.85) (xy 64.77 196.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b2dc0303-73b8-4856-8bf5-c9759dd9f485")
+	)
+	(wire
+		(pts
+			(xy 72.39 204.47) (xy 72.39 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b36db428-899f-49c5-b057-6aa1e6fe228a")
 	)
 	(wire
 		(pts
@@ -2755,6 +3406,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 186.69) (xy 374.65 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b51d6e46-546b-42ec-88f2-1bad362c618c")
+	)
+	(wire
+		(pts
 			(xy 74.93 64.77) (xy 80.01 64.77)
 		)
 		(stroke
@@ -2765,7 +3426,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 234.95) (xy 69.85 236.22)
+			(xy 72.39 185.42) (xy 72.39 186.69)
 		)
 		(stroke
 			(width 0)
@@ -2782,6 +3443,16 @@
 			(type default)
 		)
 		(uuid "b64cae2b-5a44-4af0-bbd2-5f2722d8ace7")
+	)
+	(wire
+		(pts
+			(xy 241.3 215.9) (xy 241.3 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7e7c6b5-3c5f-4474-bf8f-de8f3351e2c7")
 	)
 	(wire
 		(pts
@@ -2835,6 +3506,26 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 196.85) (xy 241.3 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfab6cf7-8f98-4c72-ab34-92fc7f8309c6")
+	)
+	(wire
+		(pts
+			(xy 163.83 180.34) (xy 176.53 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfb60a8e-3a50-4c1b-a6f3-dc7e1c2ba505")
+	)
+	(wire
+		(pts
 			(xy 76.2 45.72) (xy 87.63 45.72)
 		)
 		(stroke
@@ -2855,7 +3546,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 227.33) (xy 82.55 227.33)
+			(xy 72.39 177.8) (xy 85.09 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2875,6 +3566,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 207.01) (xy 163.83 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c58f7ebe-bf74-487d-924c-20e13efb0d73")
+	)
+	(wire
+		(pts
 			(xy 59.69 64.77) (xy 74.93 64.77)
 		)
 		(stroke
@@ -2882,6 +3583,16 @@
 			(type default)
 		)
 		(uuid "c5af7ebd-9464-4015-bd7e-accfe172521c")
+	)
+	(wire
+		(pts
+			(xy 361.95 186.69) (xy 361.95 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9232640-523a-42ac-9f6f-4ee13fd94ae1")
 	)
 	(wire
 		(pts
@@ -2905,6 +3616,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 199.39) (xy 349.25 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf14b1e4-62c9-410d-8c98-306bb644e025")
+	)
+	(wire
+		(pts
 			(xy 255.27 82.55) (xy 255.27 81.28)
 		)
 		(stroke
@@ -2915,13 +3636,23 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 205.74) (xy 69.85 212.09)
+			(xy 72.39 156.21) (xy 72.39 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d244dc56-dc0e-4461-878d-5c43bc9fde36")
+	)
+	(wire
+		(pts
+			(xy 257.81 173.99) (xy 269.24 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d33fce60-0d3a-42fa-877e-73536d0a57ce")
 	)
 	(wire
 		(pts
@@ -2945,7 +3676,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 233.68) (xy 86.36 233.68)
+			(xy 85.09 184.15) (xy 88.9 184.15)
 		)
 		(stroke
 			(width 0)
@@ -2975,6 +3706,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 186.69) (xy 180.34 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d590169b-b070-47a2-be70-2760d5b79399")
+	)
+	(wire
+		(pts
 			(xy 181.61 46.99) (xy 194.31 46.99)
 		)
 		(stroke
@@ -2982,6 +3723,36 @@
 			(type default)
 		)
 		(uuid "d74258e6-4b7d-4d5d-8953-ac0bd5e88d20")
+	)
+	(wire
+		(pts
+			(xy 226.06 173.99) (xy 240.03 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d904b498-a263-4557-8c4a-364a6aeacca8")
+	)
+	(wire
+		(pts
+			(xy 171.45 158.75) (xy 184.15 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc2de9c3-b414-4a8f-bbaa-bb9876959a03")
+	)
+	(wire
+		(pts
+			(xy 176.53 180.34) (xy 176.53 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc470702-ca96-4155-b491-5e650796ef8f")
 	)
 	(wire
 		(pts
@@ -2995,6 +3766,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 189.23) (xy 163.83 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de661182-37c3-4bd7-af2b-52865c1c5c3d")
+	)
+	(wire
+		(pts
 			(xy 100.33 52.07) (xy 102.87 52.07)
 		)
 		(stroke
@@ -3002,6 +3783,16 @@
 			(type default)
 		)
 		(uuid "e0f827c9-cff1-4341-a2bb-fc76eaf34b8d")
+	)
+	(wire
+		(pts
+			(xy 289.56 148.59) (xy 289.56 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e11a158a-25d0-4a2d-a5ea-8704bd4ba45b")
 	)
 	(wire
 		(pts
@@ -3025,6 +3816,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 189.23) (xy 176.53 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e278b499-41af-42ab-bac8-a76a3550da69")
+	)
+	(wire
+		(pts
 			(xy 60.96 45.72) (xy 66.04 45.72)
 		)
 		(stroke
@@ -3032,6 +3833,26 @@
 			(type default)
 		)
 		(uuid "e37a544a-b5d2-4723-94ae-8c44811ea9e8")
+	)
+	(wire
+		(pts
+			(xy 269.24 173.99) (xy 269.24 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e37dc481-058e-4992-99f1-c860554a3291")
+	)
+	(wire
+		(pts
+			(xy 281.94 177.8) (xy 281.94 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e37deb07-90ac-45cc-966e-0f83646a7a64")
 	)
 	(wire
 		(pts
@@ -3055,6 +3876,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 156.21) (xy 289.56 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e910b82e-d6a7-45ac-881d-d2bcc39d6aff")
+	)
+	(wire
+		(pts
 			(xy 270.51 66.04) (xy 270.51 63.5)
 		)
 		(stroke
@@ -3075,6 +3906,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 162.56) (xy 269.24 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec4a78a5-bc39-430b-97c3-f7dd62570b99")
+	)
+	(wire
+		(pts
 			(xy 266.7 26.67) (xy 271.78 26.67)
 		)
 		(stroke
@@ -3085,6 +3926,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 199.39) (xy 59.69 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0b7b941-435b-4f01-909f-0736ee9533bf")
+	)
+	(wire
+		(pts
 			(xy 349.25 44.45) (xy 354.33 44.45)
 		)
 		(stroke
@@ -3092,6 +3943,16 @@
 			(type default)
 		)
 		(uuid "f37a7053-e3a6-4ab0-9a8a-0fd750c982d0")
+	)
+	(wire
+		(pts
+			(xy 349.25 209.55) (xy 349.25 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f386cc46-f362-4e2a-8ca9-56f159d4bb4b")
 	)
 	(wire
 		(pts
@@ -3112,6 +3973,26 @@
 			(type default)
 		)
 		(uuid "f5c7a999-64a7-4eab-8c03-dceaf94432fe")
+	)
+	(wire
+		(pts
+			(xy 163.83 165.1) (xy 163.83 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5e4b3a2-c7fe-4b7d-acf4-99c750f18462")
+	)
+	(wire
+		(pts
+			(xy 135.89 199.39) (xy 135.89 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f65a8072-b640-4b16-b758-53ed6b0f1c8e")
 	)
 	(wire
 		(pts
@@ -3165,13 +4046,23 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 236.22) (xy 82.55 236.22)
+			(xy 72.39 186.69) (xy 85.09 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fb7ec0a5-042b-4ce8-ae96-3b5d9b8d49f2")
+	)
+	(wire
+		(pts
+			(xy 361.95 177.8) (xy 374.65 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcdf3b8f-26b1-43b9-82e9-9a445b654cab")
 	)
 	(wire
 		(pts
@@ -3195,6 +4086,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 209.55) (xy 59.69 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffcdd150-2ef7-4e48-9baf-ac74dd7aa33b")
+	)
+	(wire
+		(pts
 			(xy 87.63 55.88) (xy 87.63 57.15)
 		)
 		(stroke
@@ -3202,6 +4103,16 @@
 			(type default)
 		)
 		(uuid "ffd26bc6-600c-4c1c-8146-4f93f2ae7528")
+	)
+	(wire
+		(pts
+			(xy 135.89 218.44) (xy 135.89 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fff000b2-3b88-4c62-b579-842bea55ae94")
 	)
 	(text "12V Switching"
 		(exclude_from_sim no)
@@ -3215,62 +4126,7 @@
 		)
 		(uuid "c37c8d8b-a521-47a7-9d93-1553327484ee")
 	)
-	(label "SIGNAL 5"
-		(at 48.26 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "045929ab-3db4-4443-91ad-a5fb2279d889")
-	)
-	(label "SIGNAL 7"
-		(at 31.75 246.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "ad842e9b-7b16-4904-8b37-2cbf7b0358e4")
-	)
-	(label "SIGNAL 5"
-		(at 243.84 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "bfc8b8a5-2bda-4720-866f-e85e31a65bc1")
-	)
-	(label "SIGNAL 5"
-		(at 142.24 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "c047aa34-d9d8-419c-8222-c76677e91f16")
-	)
-	(label "SIGNAL 5"
-		(at 336.55 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "fbdb26ea-a049-4489-84a8-0bbf37fab328")
-	)
-	(hierarchical_label "GPIO ()"
+	(hierarchical_label "SW0"
 		(shape input)
 		(at 40.64 64.77 180)
 		(fields_autoplaced yes)
@@ -3283,9 +4139,9 @@
 		)
 		(uuid "07118d63-8368-4392-a0a7-3dbbf4a2eba9")
 	)
-	(hierarchical_label "GPIO ()"
+	(hierarchical_label "SW4"
 		(shape input)
-		(at 30.48 246.38 180)
+		(at 33.02 196.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3296,7 +4152,7 @@
 		)
 		(uuid "1306bd0d-7bc6-464e-8011-cc9ea9352fa1")
 	)
-	(hierarchical_label "GPIO ()"
+	(hierarchical_label "SW3"
 		(shape input)
 		(at 332.74 63.5 180)
 		(fields_autoplaced yes)
@@ -3309,7 +4165,7 @@
 		)
 		(uuid "20b66119-7054-43b0-b6dc-041b69bc565c")
 	)
-	(hierarchical_label "GPIO ()"
+	(hierarchical_label "SW1"
 		(shape input)
 		(at 138.43 63.5 180)
 		(fields_autoplaced yes)
@@ -3322,7 +4178,33 @@
 		)
 		(uuid "30e36769-fca6-4ce3-90e3-793f01c8b8f0")
 	)
-	(hierarchical_label "GPIO ()"
+	(hierarchical_label "SW7"
+		(shape input)
+		(at 322.58 196.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "35113ac6-9e94-450f-a8b5-7f6f70594396")
+	)
+	(hierarchical_label "SW6"
+		(shape input)
+		(at 229.87 196.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "3758c4c0-72ce-41e0-a64d-38859594706a")
+	)
+	(hierarchical_label "SW2"
 		(shape input)
 		(at 240.03 63.5 180)
 		(fields_autoplaced yes)
@@ -3334,6 +4216,86 @@
 			(justify right)
 		)
 		(uuid "42fe9386-f7b1-45b3-acf8-65f9bd9ff9d3")
+	)
+	(hierarchical_label "SW5"
+		(shape input)
+		(at 124.46 199.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "7fba143b-412f-4e06-8764-f521e0a6d5bd")
+	)
+	(symbol
+		(lib_id "Adafruit MOSFET Driver STEMMA Breakout-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
+		(at 158.75 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "008200c6-1943-4538-b005-e175ef71dcfc")
+		(property "Reference" "C5"
+			(at 160 162.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uF+/35V+"
+			(at 153.67 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 158.75 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bc06a99-41c1-494a-af9e-2792c2a2d400")
+		)
+		(pin "2"
+			(uuid "70818581-955f-447f-91b0-52501cc41556")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:Fuse")
@@ -3389,10 +4351,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "aba0c374-f32b-4355-a719-650f79c58803")
+			(uuid "ffdc144b-af5d-4d23-a934-b8ca588cc304")
 		)
 		(pin "2"
-			(uuid "a154a9e4-5df0-4984-84a4-de8d583c4507")
+			(uuid "c2139e5e-6624-460a-b1af-782f77949cc1")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -3459,10 +4421,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "72a749c6-cbdc-4797-979a-b0a930e91d0a")
+			(uuid "b6ac7d84-14a5-4e2d-b76a-57724e12e169")
 		)
 		(pin "2"
-			(uuid "092957e2-a987-468f-9fef-2040564c45cc")
+			(uuid "8e2194c0-83d1-4bab-9733-ade22bc632d4")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -3475,7 +4437,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 91.44 231.14 0)
+		(at 93.98 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3483,7 +4445,7 @@
 		(dnp no)
 		(uuid "04a8b5ec-48cb-4a6f-860a-2b5d395c9c7c")
 		(property "Reference" "J4"
-			(at 93.98 231.1399 0)
+			(at 96.52 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,7 +4454,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 86.36 237.49 0)
+			(at 88.9 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3501,7 +4463,7 @@
 			)
 		)
 		(property "Footprint" "Rpi_Pico_header:Molex_Micro-Latch_53253-0270_1x02_P2.00mm_Vertical_3D_model"
-			(at 91.44 231.14 0)
+			(at 93.98 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,7 +4472,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 231.14 0)
+			(at 93.98 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,7 +4481,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 231.14 0)
+			(at 93.98 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,15 +4490,83 @@
 			)
 		)
 		(pin "1"
-			(uuid "a90af707-1c27-41bb-a91f-c0438c797921")
+			(uuid "95087057-3a56-4294-943a-9f5d74280aeb")
 		)
 		(pin "2"
-			(uuid "04629772-82fc-4b09-b6ec-8be00982c47c")
+			(uuid "715747b1-c715-45f5-81b8-10a3568cfb1c")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit MOSFET Driver STEMMA Breakout-eagle-import:RESISTOR_0603_NOOUT")
+		(at 135.89 213.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "067d9984-53f3-4d6c-86e6-b2b798028da5")
+		(property "Reference" "R15"
+			(at 133.35 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 135.89 213.36 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 135.89 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ae1d230-d9bd-469c-b558-7efc9399fe7a")
+		)
+		(pin "2"
+			(uuid "05ec04cc-3c76-4bcc-9018-7b9b0ce1ae2f")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -3597,7 +4627,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d7be86c0-8a77-475e-a3c3-6b1ae4ba06ff")
+			(uuid "1ab29138-9962-40eb-bc28-0d8b2735c252")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -3667,18 +4697,85 @@
 			)
 		)
 		(pin "1"
-			(uuid "ad4f4f68-143b-4e4c-80a9-05ebfe128dac")
+			(uuid "015f0c4e-c685-4471-be22-e9c9c01a635f")
 		)
 		(pin "2"
-			(uuid "0413c4e9-eb6d-4e9e-a996-f702912879ae")
+			(uuid "2945e2f5-8e71-4258-ae74-f68d623a5633")
 		)
 		(pin "3"
-			(uuid "17c626fa-a9bb-46d9-ae0b-bfa2b748023c")
+			(uuid "699fad73-4fb5-470f-9b75-b8d65d92ab53")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 336.55 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08ab4a19-876b-4c17-8c9a-b779867dd83a")
+		(property "Reference" "D25"
+			(at 341.63 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Green"
+			(at 334.9625 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 336.55 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 336.55 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 336.55 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cfd496d-4fa6-4760-89d1-ff09955b0d6e")
+		)
+		(pin "2"
+			(uuid "9db94326-30e7-4987-b356-1289964aba9d")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -3739,7 +4836,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "58ddae91-ef32-404d-9a57-91f857b9cc31")
+			(uuid "5829d332-4d1d-487a-b52b-53d579d93fe7")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -3805,7 +4902,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "16e3a294-8943-432f-8478-74577ec661ea")
+			(uuid "6c704cee-a463-46e5-8d42-5d65607f6b03")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -3818,7 +4915,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SM4002")
-		(at 69.85 231.14 270)
+		(at 72.39 181.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3827,7 +4924,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b07763b-1fd1-4c6a-a2b0-849e17e46351")
 		(property "Reference" "D12"
-			(at 72.39 229.8699 90)
+			(at 74.93 180.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3836,7 +4933,7 @@
 			)
 		)
 		(property "Value" "SM4002"
-			(at 72.39 232.4099 90)
+			(at 74.93 182.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3845,7 +4942,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 65.405 231.14 0)
+			(at 67.945 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3854,7 +4951,7 @@
 			)
 		)
 		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf"
-			(at 69.85 231.14 0)
+			(at 72.39 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3863,7 +4960,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 231.14 0)
+			(at 72.39 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3872,10 +4969,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9826051c-f7aa-4c7e-9685-165982580d37")
+			(uuid "4471a731-6819-4258-85c4-30f83369da60")
 		)
 		(pin "2"
-			(uuid "8fb81ef9-f77d-4395-b5de-6464224c9735")
+			(uuid "f3c3561f-20bf-45ea-96f8-9ab623a8039c")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -3888,7 +4985,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit MOSFET Driver STEMMA Breakout-eagle-import:RESISTOR_0603_NOOUT")
-		(at 57.15 251.46 90)
+		(at 59.69 204.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3896,7 +4993,7 @@
 		(dnp no)
 		(uuid "0cbc9cdd-df42-4c02-8a39-873f2d0b2220")
 		(property "Reference" "R12"
-			(at 54.61 251.46 0)
+			(at 57.15 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3904,7 +5001,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 57.15 251.46 0)
+			(at 59.69 204.47 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3913,7 +5010,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 57.15 251.46 0)
+			(at 59.69 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +5019,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 251.46 0)
+			(at 59.69 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3931,7 +5028,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 251.46 0)
+			(at 59.69 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3940,15 +5037,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "a7ab6f50-c9f0-4904-b2c9-49ae6418ef9b")
+			(uuid "df1ea56b-eeb4-4438-8b6e-585728e3f5e6")
 		)
 		(pin "2"
-			(uuid "09f5c172-1a49-4ed2-95fb-ee125a8b20af")
+			(uuid "3741a497-5500-41d8-b5d3-425545d9cebe")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 349.25 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ebd871b-16c1-4fd9-8d48-6cb9ff8ccd24")
+		(property "Reference" "#PWR048"
+			(at 349.25 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 349.25 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 349.25 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 349.25 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e979ba8-d0f1-48b7-88d3-18694efd05e2")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4009,7 +5172,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa2e0e36-beb8-4ccb-98d5-9360ea2c302e")
+			(uuid "8b5d1d93-c490-445e-abbe-50b850319f51")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -4073,15 +5236,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "04e758a7-35a8-4071-ae21-4d2df1dca03b")
+			(uuid "14d7a19c-f824-490b-8282-b5da4d208a84")
 		)
 		(pin "2"
-			(uuid "05ba1539-4484-402e-86df-6a2f53e24072")
+			(uuid "d86aa7c6-d508-440b-adda-2d0bb3045279")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "153cf4c1-ab96-47e0-b2eb-994a71fe9f06")
+		(property "Reference" "#PWR033"
+			(at 59.69 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6191e86-f7c9-438b-969f-c6db1f45a092")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4141,7 +5370,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4ac2d386-40b3-4999-b768-1df9b3153a1c")
+			(uuid "1a92e19b-20d1-417f-964f-ee3b9c476ec6")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -4154,7 +5383,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit MOSFET Driver STEMMA Breakout-eagle-import:RESISTOR_0603_NOOUT")
-		(at 53.34 223.52 0)
+		(at 55.88 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4162,7 +5391,7 @@
 		(dnp no)
 		(uuid "163abcc5-c364-4518-b9ba-15ac8fb7a6ab")
 		(property "Reference" "R11"
-			(at 53.34 220.98 0)
+			(at 55.88 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4170,7 +5399,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 53.34 223.52 0)
+			(at 55.88 173.99 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4179,7 +5408,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 53.34 223.52 0)
+			(at 55.88 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4188,7 +5417,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 223.52 0)
+			(at 55.88 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4197,7 +5426,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 223.52 0)
+			(at 55.88 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4206,10 +5435,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "23f9e8b0-7808-4b28-afea-aef3ce5891c9")
+			(uuid "4431fc49-c259-4263-9d71-053a0185ae1b")
 		)
 		(pin "2"
-			(uuid "a9d886c5-e964-48a9-b761-fcd5aa09d22b")
+			(uuid "49c06afc-7a51-4c72-bf42-e90d6bb629a3")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -4222,7 +5451,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit MOSFET Driver STEMMA Breakout-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
-		(at 64.77 212.09 270)
+		(at 67.31 162.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4230,7 +5459,7 @@
 		(dnp no)
 		(uuid "1aba08a9-eac3-4f38-9ed5-5cffd734ea42")
 		(property "Reference" "C4"
-			(at 66.02 209.8 90)
+			(at 68.56 160.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4238,7 +5467,7 @@
 			)
 		)
 		(property "Value" "2.2uF+/35V+"
-			(at 59.69 207.01 90)
+			(at 62.23 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4246,7 +5475,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 64.77 212.09 0)
+			(at 67.31 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,7 +5484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 212.09 0)
+			(at 67.31 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4264,7 +5493,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 212.09 0)
+			(at 67.31 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4273,10 +5502,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4eb60882-ab0c-47e7-a580-8563d1ebbad4")
+			(uuid "e57c9d8c-e44f-4370-a1f3-2110959c823e")
 		)
 		(pin "2"
-			(uuid "53680fe0-ae50-4f87-b6ac-25c9e6c12786")
+			(uuid "8956bfcb-8399-4d26-9ea6-f1632a100d1f")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -4341,10 +5570,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "08cb2ed4-89ff-4722-bdd2-f97a535bcaf0")
+			(uuid "af387269-8e90-487f-8dea-177faa59cc56")
 		)
 		(pin "2"
-			(uuid "f94196db-31b7-4765-a24a-d90fd820d48b")
+			(uuid "86c90992-da2d-42bb-abeb-2a13334c8070")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -4356,16 +5585,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit MOSFET Driver STEMMA Breakout-eagle-import:GND")
-		(at 41.91 274.32 0)
+		(lib_id "Device:Fuse")
+		(at 273.05 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "201395ac-a2c4-4ead-be10-a8cbab4a1991")
-		(property "Reference" "#GND017"
-			(at 41.91 274.32 0)
+		(fields_autoplaced yes)
+		(uuid "1e0998a9-f296-440c-b55b-4d770716de63")
+		(property "Reference" "F7"
+			(at 273.05 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 273.05 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+			(at 273.05 157.988 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4373,26 +5619,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 39.37 276.86 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Adafruit MOSFET Driver STEMMA Breakout:"
-			(at 41.91 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 274.32 0)
+		(property "Datasheet" "~"
+			(at 273.05 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4401,7 +5629,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 274.32 0)
+			(at 273.05 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4410,12 +5638,150 @@
 			)
 		)
 		(pin "1"
-			(uuid "91cc14f5-ecb4-44d4-9770-f40079a44548")
+			(uuid "fe1c4ba4-7aba-49eb-9736-abf8a0c3557d")
+		)
+		(pin "2"
+			(uuid "659faf5f-0947-4544-a240-27d476bf5797")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
-					(reference "#GND017")
+					(reference "F7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 138.43 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f0583c8-b157-4474-85c0-2832d795902d")
+		(property "Reference" "D16"
+			(at 143.51 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Green"
+			(at 136.8425 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 138.43 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "166eea43-c65c-49a3-aae5-d45adb90d13d")
+		)
+		(pin "2"
+			(uuid "d1c7753c-c852-42aa-aa70-27bcc343707b")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit MOSFET Driver STEMMA Breakout-eagle-import:RESISTOR_0603_NOOUT")
+		(at 252.73 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2337de13-1428-43d9-b9e1-480e2a8def89")
+		(property "Reference" "R22"
+			(at 252.73 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 252.73 173.99 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 252.73 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be3f7ff6-f90a-461e-93e3-0af4db40b28c")
+		)
+		(pin "2"
+			(uuid "cbaf6b1c-e097-4e9f-906e-a9f7d21ae17e")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -4476,10 +5842,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "09a57f21-e6ab-4071-96b3-1d1c772204cf")
+			(uuid "be3ed9c1-48a7-4fbc-8e98-88a458cfc725")
 		)
 		(pin "2"
-			(uuid "60a40552-1eea-4b22-b2c2-4fb0371f2a7e")
+			(uuid "e2ef44ca-f744-4fc2-ac27-5dd671eec7df")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -4545,78 +5911,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1769b292-6fca-4d1b-a09b-572824d65c46")
+			(uuid "3f73e8f4-d007-43b4-af3b-7db7e4a21994")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit MOSFET Driver STEMMA Breakout-eagle-import:GND")
-		(at 57.15 257.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "28ccbcbd-4466-4dd3-9e7f-fe3bf63475b6")
-		(property "Reference" "#GND018"
-			(at 57.15 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 54.61 260.35 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Adafruit MOSFET Driver STEMMA Breakout:"
-			(at 57.15 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 57.15 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a07e39e-e5eb-4803-a142-98434e261564")
-		)
-		(instances
-			(project "Hardware_Board"
-				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
-					(reference "#GND018")
 					(unit 1)
 				)
 			)
@@ -4677,7 +5977,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "93319a6e-7ced-4325-8dcf-bbf9ead5095d")
+			(uuid "a4e4ef5d-9daf-4782-bd16-175e3a6a237d")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -4689,53 +5989,56 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 41.91 267.97 90)
+		(lib_id "Transistor_FET:ZXMN3A14F")
+		(at 359.41 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2f7c60c1-e37f-47be-9bc0-a1bf5ec7f0d7")
-		(property "Reference" "D10"
-			(at 45.72 268.2874 90)
+		(uuid "2a77cefb-1325-4688-95a5-634dfec9d1e8")
+		(property "Reference" "Q8"
+			(at 365.76 195.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "LED_Red"
-			(at 45.72 270.8274 90)
+		(property "Value" "ZXMN3A14F"
+			(at 365.76 198.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 41.91 267.97 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 364.49 198.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 41.91 267.97 0)
+		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ZXMN3A14F.pdf"
+			(at 359.41 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 41.91 267.97 0)
+			(at 359.41 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,15 +6047,154 @@
 			)
 		)
 		(pin "1"
-			(uuid "a5236d88-0755-4756-ba0e-cfd8814ce807")
+			(uuid "0556fd75-10aa-42df-93b8-1d950f626ce1")
 		)
 		(pin "2"
-			(uuid "2c47580d-c967-4a5b-8b8c-c55528219578")
+			(uuid "063f8973-e066-4f7c-b89b-077c864a191a")
+		)
+		(pin "3"
+			(uuid "8fea0006-2b85-4763-98a2-07d0c0f8a11c")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 44.45 218.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f7c60c1-e37f-47be-9bc0-a1bf5ec7f0d7")
+		(property "Reference" "D10"
+			(at 48.26 218.7574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Red"
+			(at 48.26 221.2974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 44.45 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8328d6a0-3d4f-49ad-a3dd-8d925211cae0")
+		)
+		(pin "2"
+			(uuid "e9dd30af-4ecd-4192-8653-3f268d283aec")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 289.56 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ff04893-9cb4-4b15-9e70-70ac540a59d1")
+		(property "Reference" "#PWR045"
+			(at 289.56 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 289.56 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 289.56 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b3324d5-32d0-4b79-9ce1-f5e5e164dd22")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -4813,10 +6255,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6c90bd32-1316-49f7-aca3-419d9d563c7b")
+			(uuid "adadeecc-6b73-4081-ab41-58d9578239bc")
 		)
 		(pin "2"
-			(uuid "60e9375c-e66c-4ed6-b3cd-76ae266962b2")
+			(uuid "100bbf76-f9f9-4271-9dce-c70c8e504d95")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -4880,15 +6322,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "f5260c76-ee42-46ad-ac25-eca49c550e8d")
+			(uuid "a176a17b-9429-4522-b209-cb4d18c4a489")
 		)
 		(pin "2"
-			(uuid "e0dfb3e9-e1cf-4f1d-9e1e-80fc1cd73f3c")
+			(uuid "64bd9af7-3f0b-4e6c-99ee-0e3a4a7cb15f")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 269.24 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "358f78ba-6071-42be-91af-6aa955105b0e")
+		(property "Reference" "#PWR044"
+			(at 269.24 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 269.24 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 269.24 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5638a5c0-99f3-4132-9749-b350d55afb24")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -4947,15 +6455,152 @@
 			)
 		)
 		(pin "1"
-			(uuid "05318151-a362-4c90-af88-7bee902f263a")
+			(uuid "e25720a7-7843-4bc1-b514-9c16c8cc610c")
 		)
 		(pin "2"
-			(uuid "c49bf636-181e-4db8-95db-027bb90ef27c")
+			(uuid "8e37d62c-71dc-4acd-8d61-e0ba42098654")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit MOSFET Driver STEMMA Breakout-eagle-import:RESISTOR_0603_NOOUT")
+		(at 151.13 207.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37b47ddb-3a57-49e8-9979-4852742f6307")
+		(property "Reference" "R17"
+			(at 148.59 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 151.13 207.01 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 151.13 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9dfec72-606b-4688-93db-d790953094c1")
+		)
+		(pin "2"
+			(uuid "36415b11-6018-4efa-89ae-2c579ef4ea90")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 185.42 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ef99b93-6a91-4e04-afec-fbb9b6be758d")
+		(property "Reference" "J5"
+			(at 187.96 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 180.34 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Rpi_Pico_header:Molex_Micro-Latch_53253-0270_1x02_P2.00mm_Vertical_3D_model"
+			(at 185.42 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66935273-5230-4911-8a96-e02caf1484d7")
+		)
+		(pin "2"
+			(uuid "83b0e336-66cc-4f8c-bc42-7dd1837c2c17")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5016,15 +6661,83 @@
 			)
 		)
 		(pin "1"
-			(uuid "7fcb455f-6a94-46da-9239-d11e2a4e393a")
+			(uuid "071d7bc3-16d0-4ca8-86d0-92cd8458be21")
 		)
 		(pin "2"
-			(uuid "d8759855-7294-4b05-abfe-db2bbe110b55")
+			(uuid "ef72b6e3-9471-4485-a670-423627033811")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit MOSFET Driver STEMMA Breakout-eagle-import:RESISTOR_0603_NOOUT")
+		(at 334.01 210.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "440f68aa-6f2f-4dcd-84f7-5a92faeebfb8")
+		(property "Reference" "R24"
+			(at 331.47 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 334.01 210.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 334.01 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 334.01 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2b015ef-2ccd-417f-94e5-1069f142ed56")
+		)
+		(pin "2"
+			(uuid "9a8cc42a-5a11-4c52-98e0-e3628901df75")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -5085,10 +6798,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2dd60697-dbea-45af-b52c-a88ac2346e53")
+			(uuid "7f06c597-30c6-4569-8084-442253d2257d")
 		)
 		(pin "2"
-			(uuid "fe90d917-1a1b-4868-8e0a-4022615667cf")
+			(uuid "78ab9875-5bb5-45e4-9177-e596eea6dd4c")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -5101,7 +6814,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit MOSFET Driver STEMMA Breakout-eagle-import:RESISTOR_0603_NOOUT")
-		(at 41.91 260.35 90)
+		(at 44.45 210.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5109,7 +6822,7 @@
 		(dnp no)
 		(uuid "44eab22d-cf98-48a3-a702-90d46e54e136")
 		(property "Reference" "R10"
-			(at 39.37 260.35 0)
+			(at 41.91 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,7 +6830,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 41.91 260.35 0)
+			(at 44.45 210.82 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5126,7 +6839,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 41.91 260.35 0)
+			(at 44.45 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5135,7 +6848,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 260.35 0)
+			(at 44.45 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5144,7 +6857,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 260.35 0)
+			(at 44.45 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5153,10 +6866,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a3d8a82a-0313-4195-b344-efda633d872d")
+			(uuid "acaf0c38-040d-42e9-ae2f-a6d2e0566721")
 		)
 		(pin "2"
-			(uuid "f881673a-ef43-4a04-89eb-1f27684c1104")
+			(uuid "9ee0944e-09b8-4a0a-984f-967fddeee087")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -5221,10 +6934,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2f64c102-1ebf-45a6-b0b3-a182d25dae53")
+			(uuid "8e655cfc-964b-4d7a-8419-9c5052fffa84")
 		)
 		(pin "2"
-			(uuid "9933162a-16ae-47aa-a1d5-40f3844f2c92")
+			(uuid "ff395886-5569-4a32-9cb8-c45e2a907363")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -5288,15 +7001,151 @@
 			)
 		)
 		(pin "1"
-			(uuid "20225bc9-a000-43a2-a67b-6aec7146670d")
+			(uuid "e2b5c56b-9234-4564-b081-c5dddc2d6a16")
 		)
 		(pin "2"
-			(uuid "fcc76fe1-0bce-4207-a7c4-0dd7e3435cb7")
+			(uuid "057986f7-6aaf-438f-be38-dd0cef5fe1a9")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SM4002")
+		(at 163.83 184.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a85f3d6-ac5d-486d-950f-35ea7019b4ac")
+		(property "Reference" "D17"
+			(at 166.37 182.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM4002"
+			(at 166.37 185.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 159.385 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf"
+			(at 163.83 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6baeac9d-0a98-4e32-bf09-d4d6e1aeceb4")
+		)
+		(pin "2"
+			(uuid "91f80183-17e2-4c47-8a1d-877f290b601f")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 382.27 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b4cffe5-0b35-4ea0-a195-ead1c14d4479")
+		(property "Reference" "#PWR050"
+			(at 382.27 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 382.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 382.27 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 382.27 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 382.27 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e65110b-ca0f-404a-a6af-1cb44ad5d920")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -5356,10 +7205,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bc909b79-c0f2-4591-ba9f-7c3081e988c4")
+			(uuid "d84d712a-ae7e-4a1f-a949-4ff7d7bd8664")
 		)
 		(pin "2"
-			(uuid "1184ed75-025f-4ff0-8dcc-71df2cc5fa90")
+			(uuid "071ebbe7-d601-4e63-924a-abe76a02035a")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -5426,10 +7275,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a4692d35-e339-4b1c-ba18-35b3869f23f0")
+			(uuid "390f788c-82ec-4787-a499-89bebba1436d")
 		)
 		(pin "2"
-			(uuid "0c382d84-e872-4368-ab8a-6dd674eb9722")
+			(uuid "dc15d754-55c1-4452-8151-0cb7a4de4470")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -5442,7 +7291,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 73.66 205.74 90)
+		(at 76.2 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5451,7 +7300,7 @@
 		(fields_autoplaced yes)
 		(uuid "5016411c-0d94-4ea0-b862-1f95c4afe3ce")
 		(property "Reference" "F5"
-			(at 73.66 199.39 90)
+			(at 76.2 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5459,7 +7308,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 73.66 201.93 90)
+			(at 76.2 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5467,7 +7316,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
-			(at 73.66 207.518 90)
+			(at 76.2 157.988 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,7 +7325,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 205.74 0)
+			(at 76.2 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5485,7 +7334,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 205.74 0)
+			(at 76.2 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5494,10 +7343,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "396041c7-0285-45fa-b331-4fef1d0ba776")
+			(uuid "90ce7c50-84c5-4a4c-ac22-a01198fbb9ae")
 		)
 		(pin "2"
-			(uuid "3b3e6a28-6e49-491a-9220-bc9fe63c8b18")
+			(uuid "cc305880-050f-46a9-94e1-4071ae2269e1")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -5567,13 +7416,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "7d3592bf-a5bf-4674-be2d-cc80eab9f0a0")
+			(uuid "955cb68a-9be6-4adb-95ba-9e4feb8cfc5a")
 		)
 		(pin "2"
-			(uuid "29f3e7e7-e7c7-4dd1-b232-e7929f8e1c78")
+			(uuid "f6b80717-83e7-49ce-95cf-67645d0293f7")
 		)
 		(pin "3"
-			(uuid "13c2860e-160e-46d6-a3b6-c1f58d869141")
+			(uuid "74bebc11-3e1f-4d47-bf3e-3cd6d1485b20")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -5638,15 +7487,147 @@
 			)
 		)
 		(pin "1"
-			(uuid "11048350-5486-4ae8-81c2-5a22c1ffce71")
+			(uuid "4b89e155-2198-498d-b9e0-d1a5416c0db8")
 		)
 		(pin "2"
-			(uuid "54c2159a-dc76-463b-9944-229b26ee5bf0")
+			(uuid "d376078e-f7f3-4f1b-8977-93673e79660b")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57263624-a679-4dd6-b5ce-9c8a9a93f5d0")
+		(property "Reference" "#PWR038"
+			(at 151.13 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4f98616-1b76-4116-988e-af945e881503")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a1e38af-6c00-454b-8a5b-272bfbc6bfc3")
+		(property "Reference" "#PWR042"
+			(at 241.3 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c23fdcb-16e8-4c46-8a28-aa1eed081b03")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -5707,7 +7688,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2b71d694-4db8-469c-8e41-590441b5e3c9")
+			(uuid "d3988814-15ee-4d05-8ec4-74c208528f25")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -5773,7 +7754,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3285a8bb-0414-4e4c-ae1b-7728d658a74a")
+			(uuid "424a0c6b-e210-4709-9482-7ee39556dc4b")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -5837,10 +7818,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "213278c3-6546-4a9f-bb68-0355c0fd8809")
+			(uuid "6e4dda7a-500c-4c07-ae01-9bf3bfaf77e2")
 		)
 		(pin "2"
-			(uuid "3594a748-64ce-4342-af30-4ea18cd03f49")
+			(uuid "f276e457-bb19-45de-a2b1-734db862e04b")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -5905,10 +7886,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7526e51e-aa5e-4d0e-b645-cb873ca9cb73")
+			(uuid "e0b7a035-b85c-46d1-bdea-df7e867083a3")
 		)
 		(pin "2"
-			(uuid "dee6b35f-1f76-4717-aed1-6c9107ed4196")
+			(uuid "d1375613-a5c7-4594-aeb8-6f279c099de9")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -5974,7 +7955,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f578ccc9-0eb1-498c-b22b-d80c8e71e683")
+			(uuid "544c211a-b04e-44dd-9ead-d895a422b028")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -5987,7 +7968,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 44.45 223.52 0)
+		(at 46.99 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5995,7 +7976,7 @@
 		(dnp no)
 		(uuid "700f1fce-5c9f-40bd-b83e-2e906ccbb41c")
 		(property "Reference" "D11"
-			(at 49.53 218.44 0)
+			(at 52.07 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6003,7 +7984,7 @@
 			)
 		)
 		(property "Value" "LED_Green"
-			(at 42.8625 219.71 0)
+			(at 45.4025 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6011,7 +7992,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 44.45 223.52 0)
+			(at 46.99 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6020,7 +8001,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 223.52 0)
+			(at 46.99 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6029,7 +8010,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 223.52 0)
+			(at 46.99 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6038,10 +8019,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ffd76510-db1c-497e-96d7-44c5b6f07deb")
+			(uuid "06c5c41c-63e8-45e3-a95b-0e034ef99ede")
 		)
 		(pin "2"
-			(uuid "fee5928b-aecf-4f81-9498-fbbe43b6959f")
+			(uuid "759b9b30-f764-45ac-bddc-44495855aec9")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -6105,15 +8086,83 @@
 			)
 		)
 		(pin "1"
-			(uuid "f6a05940-1de6-4821-b489-5288c075a19b")
+			(uuid "a083b3c5-6f5b-4645-aaa9-f9249ee44379")
 		)
 		(pin "2"
-			(uuid "6ec18301-ccb1-4cfc-9749-008707248945")
+			(uuid "b2e83b2d-d4b7-4a6b-a82d-58c455971980")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 167.64 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7390da4d-b0a7-4c57-a625-8ea5a3397f46")
+		(property "Reference" "F1"
+			(at 167.64 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 167.64 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+			(at 167.64 160.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2437bf1-c568-4bc9-8e6e-2ca8664b05f0")
+		)
+		(pin "2"
+			(uuid "09118a74-2898-4c54-9b33-2290ec23ef07")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -6175,15 +8224,147 @@
 			)
 		)
 		(pin "1"
-			(uuid "ba317b36-1866-473e-8857-9462c50c1d6c")
+			(uuid "9357f065-dca7-46f5-9ff4-1cf5574cd11f")
 		)
 		(pin "2"
-			(uuid "a073cdac-b295-4d1a-9159-028c44608172")
+			(uuid "269c827a-ff61-46be-8cac-1681a965fbba")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74d82a85-1390-4f6c-813f-c1b4a762ebcb")
+		(property "Reference" "#PWR039"
+			(at 163.83 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2445df37-7d0b-4c3e-adaa-7c8b7db8b281")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 256.54 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7629682a-66a7-4e41-b113-867c8d40699f")
+		(property "Reference" "#PWR043"
+			(at 256.54 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 256.54 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ff22cfe-3d0b-478f-ab67-6680897bfac7")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6245,15 +8426,84 @@
 			)
 		)
 		(pin "1"
-			(uuid "d34138fa-6e43-483c-90eb-b86e8edd793b")
+			(uuid "2af4d045-d880-4834-a953-f44585f56443")
 		)
 		(pin "2"
-			(uuid "3aac4f5c-2a8e-42aa-bdfb-6389db327e1a")
+			(uuid "b6b29e9a-06c1-4fa1-932f-12d95adf5642")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 383.54 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d8ac6cc-5641-4a33-907e-da3a1cdb2400")
+		(property "Reference" "J8"
+			(at 386.08 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 378.46 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Rpi_Pico_header:Molex_Micro-Latch_53253-0270_1x02_P2.00mm_Vertical_3D_model"
+			(at 383.54 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 383.54 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 383.54 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52390bc3-299c-4323-b49c-b54e3f7a96eb")
+		)
+		(pin "2"
+			(uuid "93f5bd17-ab2e-4a73-b644-2a73e12d24e3")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -6313,10 +8563,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "55e00566-d129-4cd9-8db3-db8d88fdee8d")
+			(uuid "1c9a6af5-d3ce-457a-bc32-7c0a8847f863")
 		)
 		(pin "2"
-			(uuid "e4f2546a-26fb-472a-8cf2-8367e1cc1f78")
+			(uuid "85023185-aff4-4130-90d2-a67633f414fa")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -6381,7 +8631,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "50471397-b97a-40de-9f1f-ff5f8db5a2a4")
+			(uuid "541c0fd4-0dff-4ec7-93b8-5c77497695f4")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -6393,52 +8643,56 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit MOSFET Driver STEMMA Breakout-eagle-import:GND")
-		(at 69.85 254 0)
+		(lib_id "Transistor_FET:ZXMN3A14F")
+		(at 266.7 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "890c625f-6dea-438d-a24b-af42b92b5c5d")
-		(property "Reference" "#GND020"
-			(at 69.85 254 0)
+		(fields_autoplaced yes)
+		(uuid "8a3986ff-23e5-4a5b-b2ea-9cde82833c05")
+		(property "Reference" "Q6"
+			(at 273.05 195.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+			)
+		)
+		(property "Value" "ZXMN3A14F"
+			(at 273.05 198.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 271.78 198.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 67.31 256.54 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Adafruit MOSFET Driver STEMMA Breakout:"
-			(at 69.85 254 0)
+		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ZXMN3A14F.pdf"
+			(at 266.7 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 69.85 254 0)
+			(at 266.7 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6447,12 +8701,160 @@
 			)
 		)
 		(pin "1"
-			(uuid "667ef26d-159e-4000-b7e0-0a97fb039e44")
+			(uuid "7712af17-d48d-4b56-9452-48bf69300995")
+		)
+		(pin "2"
+			(uuid "675ef27c-d2cd-4bb8-91c8-7f6c904ae1f5")
+		)
+		(pin "3"
+			(uuid "eb51b72b-8c7e-4658-85bf-dc37a9879c62")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
-					(reference "#GND020")
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ade3359-ffc5-4f5d-89b9-3dbfd081d0d0")
+		(property "Reference" "#PWR035"
+			(at 29.21 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04d94d82-b6f7-4578-acae-0f22faf86455")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:ZXMN3A14F")
+		(at 161.29 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8aece922-cfb2-4c38-a9aa-fd3699be52a5")
+		(property "Reference" "Q5"
+			(at 167.64 198.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ZXMN3A14F"
+			(at 167.64 200.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 166.37 201.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ZXMN3A14F.pdf"
+			(at 161.29 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6329467a-edfa-48dc-8dd3-52f509c05663")
+		)
+		(pin "2"
+			(uuid "9f3b57f1-693d-40de-8bce-17357da038e3")
+		)
+		(pin "3"
+			(uuid "7ded0c02-f876-4dc4-91af-912f57b46a35")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -6517,13 +8919,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "7678d1b0-a3d9-4a0e-8248-1eba715ad149")
+			(uuid "1158a094-ca7d-4056-9d1a-3d1b8435d542")
 		)
 		(pin "2"
-			(uuid "f5bbf35a-9f5e-46d1-9dfc-16bb7fd92678")
+			(uuid "9b1ffb87-9644-4a5d-93a8-ae59743e415c")
 		)
 		(pin "3"
-			(uuid "b12cec97-7553-4183-87c0-aa2e9d7fc15f")
+			(uuid "061305c2-be99-49fe-ab42-331198470c90")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -6588,7 +8990,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "82e9385b-d93b-4498-87d4-2c054ec6346d")
+			(uuid "1a2f5279-80f9-4f0e-8365-901a3508735c")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -6652,10 +9054,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c1dc93d6-c997-411f-bdc1-61a5bed67b92")
+			(uuid "40966414-0e24-455f-8d89-dd65c6896541")
 		)
 		(pin "2"
-			(uuid "a71b7fef-8949-4240-b659-08942a22c644")
+			(uuid "b0f6fe7c-bcf8-4d60-b6fd-a7d61dd8e6e7")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -6721,12 +9123,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "73f7484e-a6a0-42f2-a322-5f22bc3629e6")
+			(uuid "7eaef74e-9b2a-4cb4-b35e-4cd9bef9d235")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit MOSFET Driver STEMMA Breakout-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
+		(at 264.16 162.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97ec9a40-337c-4390-b52a-52fb8a3fa657")
+		(property "Reference" "C6"
+			(at 265.41 160.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uF+/35V+"
+			(at 259.08 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 264.16 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e53046b-170d-436b-8227-f0bc9818c80d")
+		)
+		(pin "2"
+			(uuid "955145be-d58a-42b1-a0f2-faa77872d105")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6786,7 +9255,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4299aaa3-23a8-49e2-9a3e-1975bb66fffa")
+			(uuid "9efe9780-fff4-488c-a4a6-3aa029f7073a")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -6852,12 +9321,216 @@
 			)
 		)
 		(pin "1"
-			(uuid "1198baee-3df8-4a93-aa3a-85092fac8d42")
+			(uuid "60d8de06-9b15-4c67-ad6c-469e4b9c5a3f")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit MOSFET Driver STEMMA Breakout-eagle-import:RESISTOR_0603_NOOUT")
+		(at 345.44 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d1bd857-c56a-4c6c-b277-22b40df74dfd")
+		(property "Reference" "R25"
+			(at 345.44 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 345.44 173.99 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 345.44 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 345.44 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26c55048-5c13-4693-8941-76f5f68e36cc")
+		)
+		(pin "2"
+			(uuid "fb5b3305-c824-415b-9fbe-9a23ef50b377")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SM4002")
+		(at 269.24 181.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1d8c0cd-265e-4998-a917-0361a8851016")
+		(property "Reference" "D23"
+			(at 271.78 180.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM4002"
+			(at 271.78 182.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 264.795 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf"
+			(at 269.24 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dedd0531-158f-404c-8f52-5140ce8530e1")
+		)
+		(pin "2"
+			(uuid "4340d50a-c51e-4f5f-b4af-a46d645743b1")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 226.06 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a61661b0-dad8-4080-aa75-b79dc0219178")
+		(property "Reference" "#PWR041"
+			(at 226.06 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d28dda78-8a5f-4624-8a4c-703fe4e85ddb")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -6916,10 +9589,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ebf318b7-f6c3-49eb-a987-d59575d86104")
+			(uuid "0d2ae9c7-9745-4d58-9921-dab9259a6657")
 		)
 		(pin "2"
-			(uuid "f47f9a99-02cc-4a6c-8a79-56aa92a66a84")
+			(uuid "b2f52f0c-58d6-4e5a-a33a-c2084cebf284")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -6984,15 +9657,153 @@
 			)
 		)
 		(pin "1"
-			(uuid "7798611e-edf2-407b-96bc-4819d92f4fa4")
+			(uuid "7bed04a0-8600-4f15-9ee2-3ef142f90885")
 		)
 		(pin "2"
-			(uuid "08ecd7fc-479d-4152-ab93-d22e7210da8c")
+			(uuid "75802c70-f4cd-411d-9a82-926bb3464303")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 135.89 220.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a77856c5-9ded-47d4-b782-5c6e4e5ff452")
+		(property "Reference" "D15"
+			(at 139.7 221.2974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Red"
+			(at 139.7 223.8374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 135.89 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54f1408c-c6bb-4ddf-b113-7f0a25f9871b")
+		)
+		(pin "2"
+			(uuid "a8d7b5e3-f244-42ec-b4a1-cc598a9502bd")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit MOSFET Driver STEMMA Breakout-eagle-import:RESISTOR_0603_NOOUT")
+		(at 349.25 204.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac6e634e-0d67-44f9-ac1f-caf2a3af78a6")
+		(property "Reference" "R26"
+			(at 346.71 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 349.25 204.47 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 349.25 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 349.25 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e61ab1c6-45c2-4b8f-95b3-8d923e7f17e5")
+		)
+		(pin "2"
+			(uuid "8ebd779f-64ca-4d61-bc12-0596661ac3b7")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -7054,10 +9865,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "03343c14-7a5a-425c-83fe-86851671760e")
+			(uuid "40c3d77d-531c-477d-9531-54d36ff985ce")
 		)
 		(pin "2"
-			(uuid "8d80ef98-bd7f-4a79-a34d-00490b5db498")
+			(uuid "467b0ff4-dd52-4c81-8ff4-30eeaddd4d6b")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -7123,12 +9934,146 @@
 			)
 		)
 		(pin "1"
-			(uuid "ae6b2e3d-fef8-446d-a8f1-3a393525a21a")
+			(uuid "2e1d00a8-38d0-4f34-922e-d924a2944a82")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 318.77 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b71e7f1a-d93a-467c-88fb-e876bd77d3d0")
+		(property "Reference" "#PWR046"
+			(at 318.77 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 318.77 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 318.77 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 318.77 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d883863a-e051-45e3-897e-5cdb177dfef9")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit MOSFET Driver STEMMA Breakout-eagle-import:RESISTOR_0603_NOOUT")
+		(at 256.54 204.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b82d2ab9-805a-45ad-8726-8f259f52850f")
+		(property "Reference" "R23"
+			(at 254 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 256.54 204.47 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 256.54 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39e19cb3-db34-44f3-b51c-5294c014e6d7")
+		)
+		(pin "2"
+			(uuid "b0783d8c-bbf7-499b-8f63-9677003cdf8b")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -7189,12 +10134,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "ebe49a86-ab9d-4a97-8cd1-f70455a3feca")
+			(uuid "a8ead2ac-5f84-490a-b4cb-4570598a031f")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba10cf55-1fd9-43bf-84a1-40475f790e89")
+		(property "Reference" "#PWR036"
+			(at 120.65 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a659f7a5-aab7-4d58-849f-4680c409fcfa")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -7254,82 +10265,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "7ab8d663-ca03-4f60-bd4f-f2625b7054b7")
+			(uuid "571f7701-e76f-45b9-8893-15b5be13c857")
 		)
 		(pin "2"
-			(uuid "8c88204b-a80a-40df-871c-98e2e9e1d3b8")
+			(uuid "7568e840-c124-4379-be02-3edcde8b5d82")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit MOSFET Driver STEMMA Breakout-eagle-import:GND")
-		(at 59.69 212.09 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc81c01a-1685-4c22-9ef3-8ffd8f4b887f")
-		(property "Reference" "#GND019"
-			(at 59.69 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 54.61 210.82 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Adafruit MOSFET Driver STEMMA Breakout:"
-			(at 59.69 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb4eb8df-ef39-45a5-877e-17a7378b439f")
-		)
-		(instances
-			(project "Hardware_Board"
-				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
-					(reference "#GND019")
 					(unit 1)
 				)
 			)
@@ -7390,12 +10334,150 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa7d2aeb-954f-4d62-83f1-00eb770e363b")
+			(uuid "fd8b46a7-becb-4748-ac16-8fa2d51cd634")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit MOSFET Driver STEMMA Breakout-eagle-import:RESISTOR_0603_NOOUT")
+		(at 241.3 210.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfb9472a-ca09-43a7-b1e9-601308e6a18e")
+		(property "Reference" "R18"
+			(at 238.76 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 241.3 210.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 241.3 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97381e4c-34af-41a7-a262-b869d77d3b2a")
+		)
+		(pin "2"
+			(uuid "cb651291-1369-4d73-9b65-24db22dec228")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 334.01 218.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c10004a3-978c-4457-aa0d-2cf06871aa23")
+		(property "Reference" "D24"
+			(at 337.82 218.7574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Red"
+			(at 337.82 221.2974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 334.01 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 334.01 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 334.01 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed59ae80-a906-4c79-a2e1-11b0f4c871c5")
+		)
+		(pin "2"
+			(uuid "c76421f7-bb24-4a49-9591-95704c022b2d")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -7455,10 +10537,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "cbaad865-1546-4992-a68e-108598f3565b")
+			(uuid "8b7e9474-f991-4322-b9fd-392948d33681")
 		)
 		(pin "2"
-			(uuid "867cce03-9ecd-4abf-bab0-1ffe2f72711a")
+			(uuid "e6364672-390e-47d8-95c4-3951ed174ca4")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -7523,10 +10605,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c7c87ea3-ad9d-4144-860b-35e4b1dea291")
+			(uuid "ae0a96a3-9cca-45e7-af71-00aadc209f59")
 		)
 		(pin "2"
-			(uuid "96111b1d-11d7-4642-bfeb-fdeffcf3fa6c")
+			(uuid "942df807-78eb-4854-a7d6-fa54b05ad4b2")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -7591,15 +10673,82 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb3c5775-a9a9-4467-8a57-1a2df2728f61")
+			(uuid "2d5dcb57-276b-4590-8f9d-d6276961f79f")
 		)
 		(pin "2"
-			(uuid "93187bef-8775-40f1-bf95-ba587f1052de")
+			(uuid "07e99cdb-12c5-4961-96fa-19d4c047e9b0")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit MOSFET Driver STEMMA Breakout-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
+		(at 356.87 162.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c489e96a-b061-49f5-9918-b54c50c5effe")
+		(property "Reference" "C8"
+			(at 358.12 160.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uF+/35V+"
+			(at 351.79 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 356.87 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 356.87 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bcb88b6-2ff5-4a8d-aacd-bef38ccc9fd1")
+		)
+		(pin "2"
+			(uuid "720eda0e-c9a6-493e-ba99-e93b44f94210")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -7661,15 +10810,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "5483ed4e-bd67-4fc8-9c59-7b08658d2b48")
+			(uuid "fd4d4cb3-f530-4545-ac4f-6c4e1676fecc")
 		)
 		(pin "2"
-			(uuid "bda44a3a-8e40-424e-96a0-86e9098822ff")
+			(uuid "6f93b56f-3c98-4d23-a02c-3bf3a981624a")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7c06a34-2adc-4b40-95e1-650b1a9a2865")
+		(property "Reference" "#PWR032"
+			(at 44.45 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67cc2bfb-8b1d-4bf8-817c-3c94a631c022")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -7731,15 +10946,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "17b3be68-e99d-4a4c-bea1-25685808cc3b")
+			(uuid "87217c21-83d4-4804-9f5c-a08961a7b38c")
 		)
 		(pin "2"
-			(uuid "2c006b4c-6915-4818-9def-3cf016358eb5")
+			(uuid "116e0f83-83b7-4fbe-a95e-7c064af02aef")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 334.01 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8ee2e37-1b80-4031-9b7a-a9524d1df026")
+		(property "Reference" "#PWR047"
+			(at 334.01 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 334.01 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 334.01 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 334.01 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb909af8-4fc8-4daa-b65b-4f4d830f7a81")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -7800,12 +11081,82 @@
 			)
 		)
 		(pin "1"
-			(uuid "6313e50b-eb6b-4d77-a35c-f42544e70fe1")
+			(uuid "8f76061a-eccd-4de5-a267-e69e926fe19d")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SM4002")
+		(at 361.95 181.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc1e052f-f17e-4cf4-9279-7c91c527820f")
+		(property "Reference" "D26"
+			(at 364.49 180.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM4002"
+			(at 364.49 182.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 357.505 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf"
+			(at 361.95 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 361.95 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89663f5c-e1ad-41e1-8d7d-9dbf63ad146a")
+		)
+		(pin "2"
+			(uuid "34afb692-9b76-45f4-a44c-ccf10bd53bfc")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -7866,12 +11217,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "be21eb9c-7d58-4418-9114-d9f5ed51041b")
+			(uuid "08d8a555-9c71-4d66-b163-74bc8f72d3a9")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 361.95 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf845817-689d-4cc9-a213-9b0258891519")
+		(property "Reference" "#PWR049"
+			(at 361.95 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 361.95 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 361.95 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "815340a7-c30d-4274-ad70-c79880d348cd")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -7932,7 +11349,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "864ab012-04e5-4a95-9ff6-aafe00efe094")
+			(uuid "bad9f72a-b95b-450d-9e23-1e2fc27c37c3")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -7945,7 +11362,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:ZXMN3A14F")
-		(at 67.31 246.38 0)
+		(at 69.85 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7954,7 +11371,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3fd0cf7-deb6-4074-8f2e-e50fdf3fc59f")
 		(property "Reference" "Q4"
-			(at 73.66 245.1099 0)
+			(at 76.2 195.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7963,7 +11380,7 @@
 			)
 		)
 		(property "Value" "ZXMN3A14F"
-			(at 73.66 247.6499 0)
+			(at 76.2 198.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7972,7 +11389,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 72.39 248.285 0)
+			(at 74.93 198.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7983,7 +11400,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ZXMN3A14F.pdf"
-			(at 67.31 246.38 0)
+			(at 69.85 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7993,7 +11410,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 246.38 0)
+			(at 69.85 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8002,18 +11419,88 @@
 			)
 		)
 		(pin "1"
-			(uuid "2aed5d13-28c4-4e95-b6e3-384d636eecb6")
+			(uuid "5155e1f7-f583-4554-9ac6-0a311220b955")
 		)
 		(pin "2"
-			(uuid "ca41eaa1-4db9-4aca-85bd-95f184741457")
+			(uuid "6adadb14-dc6f-42da-8719-92247b655e32")
 		)
 		(pin "3"
-			(uuid "bce1ab87-0b01-436a-955a-1a575b59bec1")
+			(uuid "7616b0a1-c772-4f62-89d2-bc4a61d88e3c")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 241.3 218.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d41e7faa-0037-434e-8853-8da8a7abba4a")
+		(property "Reference" "D18"
+			(at 245.11 218.7574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Red"
+			(at 245.11 221.2974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 241.3 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e9ae815-c537-472c-8974-630ac620dbad")
+		)
+		(pin "2"
+			(uuid "137d8467-013c-4ada-b123-213fa89e8e73")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -8078,18 +11565,355 @@
 			)
 		)
 		(pin "1"
-			(uuid "865748bc-cea6-4f1e-9d7a-b956cc063687")
+			(uuid "e1258a21-a6ce-4fce-8511-b241c6c19c29")
 		)
 		(pin "2"
-			(uuid "06ae12d2-a522-4daa-81f5-f609c9553bc6")
+			(uuid "35a15edb-eef9-46bf-a657-275da0cc6072")
 		)
 		(pin "3"
-			(uuid "85ff3810-b795-4f43-9780-23ddce5f6805")
+			(uuid "b3da72f3-aaa6-4694-ad39-cd9c327bd0eb")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 290.83 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da6b05dd-5690-4590-a2e8-7ff95f5e84d5")
+		(property "Reference" "J6"
+			(at 293.37 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 285.75 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Rpi_Pico_header:Molex_Micro-Latch_53253-0270_1x02_P2.00mm_Vertical_3D_model"
+			(at 290.83 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 290.83 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 290.83 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87f7bb0b-ba73-437d-b096-d1483937f2ac")
+		)
+		(pin "2"
+			(uuid "7ba677b0-aaef-4eda-8a2a-9d93f1a5eee2")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd50e287-abfb-426e-9b1a-ae292ff49bf3")
+		(property "Reference" "#PWR037"
+			(at 135.89 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b649cf94-eb9b-4d8f-9e00-3c06e2274935")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit MOSFET Driver STEMMA Breakout-eagle-import:RESISTOR_0603_NOOUT")
+		(at 147.32 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de771bb6-2121-4e75-9b91-a736b508dda0")
+		(property "Reference" "R16"
+			(at 147.32 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 147.32 176.53 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 147.32 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a3d9882-7f31-4495-a645-a806d8255334")
+		)
+		(pin "2"
+			(uuid "57d9b8d2-be44-4b5d-82a0-0938e2b86c4d")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 365.76 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dff8c27b-1ecc-4a2b-930f-8aef3da8fb91")
+		(property "Reference" "F9"
+			(at 365.76 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 365.76 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+			(at 365.76 157.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 365.76 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abac9f41-8318-4d43-bb24-17dd2dd92b39")
+		)
+		(pin "2"
+			(uuid "8ca1ee02-5339-48ee-be66-e38cba015adb")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "F9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e050f95d-e6fb-4bbe-b4f8-8bd6c0c630c1")
+		(property "Reference" "#PWR034"
+			(at 72.39 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdfa7ea8-a723-4971-aba0-ffbea58d1f29")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -8149,10 +11973,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2b2aac5f-02c7-4fd6-89bf-c2276cfdd819")
+			(uuid "9116dce4-6184-4c13-a191-e315923bc8e6")
 		)
 		(pin "2"
-			(uuid "20bf160d-ec3f-4ea8-bb50-3d398100f5c1")
+			(uuid "b1339624-b485-4cf8-a711-dfd5c45466ad")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -8218,7 +12042,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6ed5b4a6-1912-4519-bed0-18e2a1e44589")
+			(uuid "22d33977-c677-4270-9cfe-adc170579c14")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -8231,7 +12055,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 90.17 198.12 0)
+		(at 92.71 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8240,7 +12064,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7df9d61-4768-429d-af1a-a7a11e5efb33")
 		(property "Reference" "#PWR01"
-			(at 90.17 201.93 0)
+			(at 92.71 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8249,7 +12073,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 90.17 193.04 0)
+			(at 92.71 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8257,7 +12081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 198.12 0)
+			(at 92.71 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8266,7 +12090,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 198.12 0)
+			(at 92.71 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8275,7 +12099,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 90.17 198.12 0)
+			(at 92.71 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8284,81 +12108,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4324fca3-5827-4dc8-bef6-3633a871b307")
-		)
-		(instances
-			(project ""
-				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit MOSFET Driver STEMMA Breakout-eagle-import:GND")
-		(at 35.56 223.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "edf9a531-2321-4658-b230-782dec59452e")
-		(property "Reference" "#GND016"
-			(at 35.56 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 30.48 224.79 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Adafruit MOSFET Driver STEMMA Breakout:"
-			(at 35.56 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 35.56 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5fdf7ff2-507c-40ed-ac96-4cd4123ff8b9")
-		)
-		(instances
-			(project "Hardware_Board"
-				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
-					(reference "#GND016")
-					(unit 1)
-				)
-			)
+			(uuid "2938b596-ceee-4c3d-9235-d3b0ae504c4e")
 		)
 	)
 	(symbol
@@ -8416,15 +12166,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "edaebb10-97a7-4f01-bba3-c41e6af6ef4c")
-		)
-		(instances
-			(project ""
-				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
+			(uuid "b731bcf1-a54a-4379-a6eb-be0cf1c76776")
 		)
 	)
 	(symbol
@@ -8481,15 +12223,82 @@
 			)
 		)
 		(pin "1"
-			(uuid "de931606-dacb-4c1d-a2b5-c925df8a69a0")
+			(uuid "e0058cf9-14a5-4184-bc3d-c5b7ed415845")
 		)
 		(pin "2"
-			(uuid "bc0ca968-5d45-4cf5-84af-d7972a0c1253")
+			(uuid "73f5d7dd-9b77-46d4-ad2a-2478c7fd6464")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 243.84 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8e25d3a-3ba1-451f-846b-160c45ebc007")
+		(property "Reference" "D22"
+			(at 248.92 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Green"
+			(at 242.2525 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 243.84 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e0468f0-e0af-4ca4-9ec3-c0a97737a05d")
+		)
+		(pin "2"
+			(uuid "74dce245-5de6-49db-bdf3-085fd7a5087d")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -8549,10 +12358,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0d429c7c-b6e1-4007-ba96-d1ef2eef90b0")
+			(uuid "147bc326-77d3-4b4a-9559-4a5425fdb5ff")
 		)
 		(pin "2"
-			(uuid "2d763b1c-98c9-4711-9959-d7208f4c2d50")
+			(uuid "769d1342-d83b-4c7d-933e-20ce39765eb3")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -8619,15 +12428,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "def99c75-b1f1-4a00-bb22-4ad3be4cbd3d")
+			(uuid "08b8b716-f1da-44d4-bf9b-94d9b9fb8ee1")
 		)
 		(pin "2"
-			(uuid "43f54721-436b-4c3d-859e-b247a1428819")
+			(uuid "cf81c1e7-2ed8-4da7-abbd-ce1f7d2fd7a3")
 		)
 		(instances
 			(project "Hardware_Board"
 				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 184.15 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbcc0576-b7d5-43c3-9ae2-63b29581c485")
+		(property "Reference" "#PWR040"
+			(at 184.15 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 184.15 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 184.15 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dad58787-7eaf-4f42-b920-ab0b1e95e738")
+		)
+		(instances
+			(project "Hardware_Board"
+				(path "/4b3e48be-65ba-4d0a-a1db-abb25b7e04e5/a7d6e487-5aa1-4388-99a1-443b91f3b4fe"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -8688,7 +12563,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4708a029-8f21-4ba8-99e9-13404b9ea816")
+			(uuid "4a5d8b18-17a5-4a7a-9e4f-acd6014860e5")
 		)
 		(instances
 			(project "Hardware_Board"
@@ -8753,10 +12628,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3004ac71-01c8-4db0-ba70-e9784f92c7c2")
+			(uuid "e25714db-a5c5-40d6-86ef-e1f84025f213")
 		)
 		(pin "2"
-			(uuid "55a61ec7-22f7-4092-81d4-d12a08fda6fa")
+			(uuid "fef9933a-37cf-4a0b-95d7-763ed4934f44")
 		)
 		(instances
 			(project "Hardware_Board"
