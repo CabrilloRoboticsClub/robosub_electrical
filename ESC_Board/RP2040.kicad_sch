@@ -6245,16 +6245,6 @@
 		)
 		(uuid "683fc393-7ce0-4be9-8e58-5ad90dfbbe8b")
 	)
-	(text "Clean up this totaly fucked naming"
-		(exclude_from_sim no)
-		(at 324.612 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "76abcb7d-19f1-4332-898e-6ceaf43810e4")
-	)
 	(text "RP2040 Microcontroller"
 		(exclude_from_sim no)
 		(at 203.708 17.272 0)
