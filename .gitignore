@@ -24,6 +24,11 @@ fp-info-cache
 *.dsn
 *.ses
 
+# Lock Files (nightly feature)
+*.lck
+
 # Exported BOM files
 *.xml
 *.csv
+.DS_Store
+\#auto_saved_files\#
