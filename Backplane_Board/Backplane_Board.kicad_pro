@@ -398,6 +398,10 @@
     [
       "7b71b6ce-8c47-4c65-b8c9-3da018ee1e8e",
       "Power_Connectors"
+    ],
+    [
+      "56b8e12d-dd0b-4666-a03d-a6d0d5960b51",
+      "Voltage_Level_ADC"
     ]
   ],
   "text_variables": {}
