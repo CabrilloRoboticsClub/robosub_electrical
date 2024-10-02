@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "678eea57-0147-4dc7-ad0f-30791ada7467")
 	(paper "A4")
+	(title_block
+		(title "5V and 12V Power Bus")
+		(date "2024-09-30")
+		(rev "1")
+		(company "Cabrillo Robtics")
+		(comment 1 "LaserShark Backplane PCB")
+	)
 	(lib_symbols
 		(symbol "Device:C_Polarized_Small_US"
 			(pin_numbers hide)
@@ -2458,6 +2465,17 @@
 			)
 		)
 		(uuid "0d2aa641-0a68-426c-993d-9dd174728125")
+	)
+	(text "fuse?"
+		(exclude_from_sim no)
+		(at 36.322 155.702 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 53 95 1)
+			)
+		)
+		(uuid "2f22d4c1-22dc-4e25-83b1-c66bed3062e1")
 	)
 	(global_label "60V"
 		(shape input)

@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "78da810e-57da-4f40-89fa-32a674da42a8")
 	(paper "A4")
+	(title_block
+		(title "Backplane_Board")
+		(date "2024-09-30")
+		(rev "1")
+		(company "Cabrillo Robtics")
+		(comment 1 "LaserShark Backplane PCB")
+	)
 	(lib_symbols
 		(symbol "Analog_ADC:ADS1115IDGS"
 			(exclude_from_sim no)

@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e8a7b2f6-d337-4e2d-a270-9c7a4c69075a")
+	(paper "A4")
+	(title_block
+		(title "Backplane_Board")
+		(date "2024-09-30")
+		(rev "1")
+		(company "Cabrillo Robtics")
+		(comment 1 "LaserShark Backplane PCB")
+	)
+	(lib_symbols)
+)
