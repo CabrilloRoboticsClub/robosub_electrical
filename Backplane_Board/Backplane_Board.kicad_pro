@@ -400,10 +400,6 @@
       "Power_Connectors"
     ],
     [
-      "56b8e12d-dd0b-4666-a03d-a6d0d5960b51",
-      "Voltage_Level_ADC"
-    ],
-    [
       "be50f6f1-2baa-4c10-879d-c3252e5de752",
       "BoardBoardConnections"
     ]
