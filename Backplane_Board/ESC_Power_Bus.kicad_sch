@@ -2545,7 +2545,7 @@
 	)
 	(text "Kill Switch Saftey Bypass "
 		(exclude_from_sim no)
-		(at 125.476 119.888 0)
+		(at 124.714 119.38 0)
 		(effects
 			(font
 				(size 2.54 2.54)
