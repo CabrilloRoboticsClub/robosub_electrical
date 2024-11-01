@@ -1215,6 +1215,12 @@
 		(uuid "273954a2-3a0a-4c09-9026-764289f4a817")
 	)
 	(junction
+		(at 35.56 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a6a95cc-29b5-4d41-b29b-394f85a7b34f")
+	)
+	(junction
 		(at 118.11 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1452,6 +1458,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 39.37) (xy 35.56 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "200bb1d7-7743-49f6-b440-83732c9f0b98")
+	)
+	(wire
+		(pts
 			(xy 44.45 130.81) (xy 44.45 129.54)
 		)
 		(stroke
@@ -1459,6 +1475,16 @@
 			(type default)
 		)
 		(uuid "2036ebd9-1bfa-4fc0-a11f-0d1ff2e941c6")
+	)
+	(wire
+		(pts
+			(xy 38.1 39.37) (xy 35.56 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d83996-6ee2-4d3e-aa32-9837ac6d9411")
 	)
 	(wire
 		(pts
@@ -2292,16 +2318,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 39.37) (xy 38.1 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7b74cdc-608b-495f-aeeb-4774127e2cde")
-	)
-	(wire
-		(pts
 			(xy 82.55 114.3) (xy 82.55 116.84)
 		)
 		(stroke
@@ -2503,14 +2519,15 @@
 		)
 		(uuid "884421c4-81b8-4a17-a0ee-856b73bf96cd")
 	)
-	(text "TODO: Check to see if this brick has an isolator. May need to use a diode or fet for prtoection,\nwhen connecting to the KillSW node. Could possably also use a read SW with 2 chanles"
+	(text "TODO: Check to see if this brick has an isolator. May need to use a diode or fet for prtoection,\nwhen connecting to the KillSW node. Could possably also use a read SW with 2 chanles\n\nNote: Currently aways on. We do not want to kill the full buss in the event that the kill swtich is pulled"
 		(exclude_from_sim no)
-		(at 69.088 70.104 0)
+		(at 45.212 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 255 52 89 1)
 			)
+			(justify left)
 		)
 		(uuid "cf43e074-6eca-415c-ba68-8fbcec0ace62")
 	)
@@ -2625,28 +2642,6 @@
 		(uuid "5bb2f502-08b6-43d5-81bf-ddd5f4807044")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 236.5611 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "KillSW"
-		(shape input)
-		(at 27.94 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f293fb0d-0c8d-47cd-adcd-8a3c26483482")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.0887 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
