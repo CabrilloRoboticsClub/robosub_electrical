@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ESC Power Bus")
-		(date "2024-09-30")
+		(date "2024-10-29")
 		(rev "1")
 		(company "Cabrillo Robtics")
 		(comment 1 "LaserShark Backplane PCB")
