@@ -2111,9 +2111,9 @@
 		)
 		(uuid 8c94a38e-7886-4063-aa94-03f02d6e7477)
 	)
-	(text "Capactor banks"
+	(text "Ceramic"
 		(exclude_from_sim no)
-		(at 90.424 112.268 0)
+		(at 218.694 107.442 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2123,7 +2123,7 @@
 	)
 	(text "Electrolytic"
 		(exclude_from_sim no)
-		(at 223.52 106.426 0)
+		(at 87.376 111.76 0)
 		(effects
 			(font
 				(size 2.54 2.54)
