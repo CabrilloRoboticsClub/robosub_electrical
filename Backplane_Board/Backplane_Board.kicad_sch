@@ -172,6 +172,168 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Polarized_Small_US"
 			(pin_numbers hide)
 			(pin_names
@@ -1058,151 +1220,6 @@
 				)
 			)
 		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start 1.524 1.27)
-					(mid 0 1.778)
-					(end -1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Regulator_Linear:AP2127N-1.0"
 			(pin_names
 				(offset 0.254)
@@ -1910,7 +1927,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 29.21) (xy 69.85 29.21)
+			(xy 69.85 29.21) (xy 91.44 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1957,6 +1974,16 @@
 			(type default)
 		)
 		(uuid "0ccfa0d9-102a-4b21-bdd6-042a602ccae9")
+	)
+	(wire
+		(pts
+			(xy 158.75 30.48) (xy 158.75 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f833fb-fcf4-4b51-8f14-0ff1b9a1246b")
 	)
 	(wire
 		(pts
@@ -2010,16 +2037,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 29.21) (xy 118.11 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "269de6ff-0c7e-4c02-a250-d1b3e0281891")
-	)
-	(wire
-		(pts
 			(xy 69.85 29.21) (xy 69.85 41.91)
 		)
 		(stroke
@@ -2050,6 +2067,26 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 26.67) (xy 91.44 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e66afa-f57e-4fd3-8bb8-a74cda3969be")
+	)
+	(wire
+		(pts
+			(xy 156.21 41.91) (xy 156.21 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b34f375-19a1-4b6f-8e74-d7d3223c6cf9")
+	)
+	(wire
+		(pts
 			(xy 242.57 44.45) (xy 242.57 48.26)
 		)
 		(stroke
@@ -2067,6 +2104,16 @@
 			(type default)
 		)
 		(uuid "4ddd3aa8-8b3d-4eab-8722-aa1db940d91c")
+	)
+	(wire
+		(pts
+			(xy 158.75 41.91) (xy 171.45 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e6967c8-6efd-4f13-b22e-6e772be5f61b")
 	)
 	(wire
 		(pts
@@ -2120,7 +2167,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 41.91) (xy 144.78 41.91)
+			(xy 130.81 41.91) (xy 156.21 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2140,7 +2187,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 27.94) (xy 130.81 27.94)
+			(xy 93.98 26.67) (xy 93.98 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de13c65-b1b3-405f-832e-6fd956967f64")
+	)
+	(wire
+		(pts
+			(xy 133.35 31.75) (xy 130.81 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2157,16 +2214,6 @@
 			(type default)
 		)
 		(uuid "84920858-bee9-416d-9f1d-30ba601e0bc8")
-	)
-	(wire
-		(pts
-			(xy 154.94 41.91) (xy 171.45 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85e417c2-e1e8-4df5-bf7e-5177684b6715")
 	)
 	(wire
 		(pts
@@ -2190,6 +2237,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 29.21) (xy 118.11 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "930fb64f-c160-49b5-b8f4-b50726bdc994")
+	)
+	(wire
+		(pts
 			(xy 109.22 41.91) (xy 118.11 41.91)
 		)
 		(stroke
@@ -2200,7 +2257,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 27.94) (xy 130.81 41.91)
+			(xy 130.81 31.75) (xy 130.81 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2416,7 +2473,7 @@
 	)
 	(text "Reverse protection bypass"
 		(exclude_from_sim no)
-		(at 111.506 23.622 0)
+		(at 107.188 18.542 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2490,7 +2547,7 @@
 	)
 	(global_label "SHUNT+"
 		(shape input)
-		(at 134.62 27.94 0)
+		(at 133.35 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2500,7 +2557,7 @@
 		)
 		(uuid "8b18188c-e2e2-4e9a-a52b-71e9340a2d81")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.3462 27.94 0)
+			(at 144.0762 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2694,7 +2751,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZXTR2005ZQ-13:SOT-89_4P5X2P45_DIO-M"
 			(at 193.802 105.283 0)
 			(effects
 				(font
@@ -3081,76 +3138,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 265.43 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d7e8f21-9baf-4232-ae61-da520f7be7f4")
-		(property "Reference" "C5"
-			(at 269.24 38.7349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330uF"
-			(at 269.24 41.2749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 265.43 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d0913d27-fef3-4749-b108-672b5381cb5e")
-		)
-		(pin "2"
-			(uuid "37c0cb9e-9e00-467b-948c-b519005efb55")
-		)
-		(instances
-			(project "Backplane_Board"
-				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 220.98 138.43 0)
 		(unit 1)
@@ -3385,33 +3372,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 149.86 41.91 0)
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 93.98 21.59 270)
+		(mirror x)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a05a3467-4365-485a-9969-86b867fb1a1f")
-		(property "Reference" "JP1"
-			(at 149.86 35.56 0)
+		(uuid "a5b48d51-8353-4140-80bb-a3fbc48f3978")
+		(property "Reference" "J39"
+			(at 98.044 22.352 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "Jumper_2_Open"
-			(at 149.86 38.1 0)
+		(property "Value" "XT60"
+			(at 99.06 24.892 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 149.86 41.91 0)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+			(at 93.98 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3420,7 +3409,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 41.91 0)
+			(at 93.98 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3428,25 +3417,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 149.86 41.91 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 93.98 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "3aac24ff-32e2-44ee-ab51-52336cb8a0ba")
 		)
 		(pin "2"
-			(uuid "c61fc895-abed-4b22-a61a-45e606ae659d")
+			(uuid "762440f6-c777-4797-ac9e-b9150b610d8a")
+		)
+		(pin "1"
+			(uuid "6d306292-db8c-41a6-be11-ea6a88db86b2")
 		)
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4"
-					(reference "JP1")
+					(reference "J39")
 					(unit 1)
 				)
 			)
@@ -3546,7 +3535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EEV-TG2A331M:CAP_EEVTG2A331M"
 			(at 242.57 40.64 0)
 			(effects
 				(font
@@ -3589,33 +3578,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 92.71 29.21 0)
+		(lib_id "Device:C_Polarized_US")
+		(at 265.43 40.64 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c21aaa59-e476-4800-8f25-1fc38fe79057")
-		(property "Reference" "JP3"
-			(at 92.71 22.86 0)
+		(uuid "c2bd7f96-3b82-46db-bf6c-9e029199a469")
+		(property "Reference" "C5"
+			(at 269.24 38.7349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Jumper_2_Open"
-			(at 92.71 25.4 0)
+		(property "Value" "330uF"
+			(at 269.24 41.2749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 92.71 29.21 0)
+		(property "Footprint" "EEV-TG2A331M:CAP_EEVTG2A331M"
+			(at 265.43 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3624,7 +3615,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 29.21 0)
+			(at 265.43 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3632,8 +3623,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 92.71 29.21 0)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 265.43 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3642,15 +3633,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "148014a3-389f-47fc-ace3-e8b7a3c5cc8b")
+			(uuid "ebf65748-90f9-4b2f-8c44-f6e9643e75f9")
 		)
 		(pin "2"
-			(uuid "43128e16-4813-4e83-89ec-a1f474792c05")
+			(uuid "f33bcbd1-39ec-48b3-847b-5c55f89c5b8d")
 		)
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4"
-					(reference "JP3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3919,6 +3910,76 @@
 			(project ""
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 158.75 25.4 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f71d15ed-0044-4a87-b3c2-91ad53c672b1")
+		(property "Reference" "J38"
+			(at 162.814 26.162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "XT60"
+			(at 163.83 28.702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+			(at 158.75 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 158.75 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0948e235-a498-46ab-a301-275ac53af24e")
+		)
+		(pin "1"
+			(uuid "211394c5-55c0-4428-bf16-7c23c29ba373")
+		)
+		(instances
+			(project ""
+				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4"
+					(reference "J38")
 					(unit 1)
 				)
 			)

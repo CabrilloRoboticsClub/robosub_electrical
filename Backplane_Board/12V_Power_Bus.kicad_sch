@@ -2455,7 +2455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d1ff37e-7f36-49b4-b713-a275cd18653c")
-		(property "Reference" "10k"
+		(property "Reference" "10k1"
 			(at 137.16 64.7699 0)
 			(effects
 				(font
@@ -2509,7 +2509,7 @@
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/7cc9cec9-7faa-4853-bd66-b7a2d884c738"
-					(reference "10k")
+					(reference "10k1")
 					(unit 1)
 				)
 			)
