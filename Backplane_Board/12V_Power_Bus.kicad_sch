@@ -2516,6 +2516,95 @@
 		)
 	)
 	(symbol
+		(lib_id "PKJ7213WPI:PKJ7213WPI")
+		(at 71.12 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f5286c3-3cd2-4764-b20c-b456b11c0b30")
+		(property "Reference" "U2"
+			(at 71.755 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PKJ7213WPI"
+			(at 71.755 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://flexpowermodules.com/resources/fpm-techspec-pkj7200w"
+			(at 71.12 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PKJ 7200W series DC-DC Converters Input 14-160 V, Output up to 16.7 A / 200 W"
+			(at 71.12 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "cbf39a3c-4f73-4310-88b0-9e4bf3cf3e40")
+		)
+		(pin "2"
+			(uuid "23a41bf2-c323-46ba-a89d-1f82152bbda7")
+		)
+		(pin "1"
+			(uuid "1e46cde8-17fc-48ac-aa46-538122f32705")
+		)
+		(pin "5"
+			(uuid "3dd6d74d-c2be-4876-8fa0-73b523a2700e")
+		)
+		(pin "6"
+			(uuid "90b6f21e-d0b1-4d45-9ad2-c9f859ae0fab")
+		)
+		(pin "7"
+			(uuid "3ee8fe03-4bb6-422a-986a-51d2952661bc")
+		)
+		(pin "4"
+			(uuid "7d960609-1e0d-4d6b-8485-b8e04e230978")
+		)
+		(pin "3"
+			(uuid "8d5529d2-bc85-46e9-92d6-fbf30dfe9ae0")
+		)
+		(pin "9"
+			(uuid "a834f0ae-87b9-4b17-9de5-285ddf9c8c9c")
+		)
+		(instances
+			(project "Backplane_Board"
+				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/7cc9cec9-7faa-4853-bd66-b7a2d884c738"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
 		(at 160.02 49.53 0)
 		(unit 1)
@@ -2779,95 +2868,6 @@
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/7cc9cec9-7faa-4853-bd66-b7a2d884c738"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PKJ7213WPI:PKJ7213WPI")
-		(at 71.12 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5227ade1-515c-4abc-908b-0b54c7f93835")
-		(property "Reference" "U2"
-			(at 71.755 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 71.755 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "c48de884-7468-4d72-a8b7-ad0c51e2991f")
-		)
-		(pin "2"
-			(uuid "b1f98849-3321-4cbc-b912-d66be4d22ab1")
-		)
-		(pin "1"
-			(uuid "52635ed3-adc6-4d16-b86d-66cf6bfdea92")
-		)
-		(pin "5"
-			(uuid "74e3a658-4adf-4d10-b540-35b27dd82a5d")
-		)
-		(pin "6"
-			(uuid "9163d8fd-29d1-42d1-a4f5-4585fbad2619")
-		)
-		(pin "7"
-			(uuid "54beff11-0ca8-4769-835c-776877cd8ede")
-		)
-		(pin "4"
-			(uuid "0278fd59-26c3-43e6-a8b5-7fdfc6237427")
-		)
-		(pin "3"
-			(uuid "01818851-b080-4a91-af3b-d46ac1db83fb")
-		)
-		(pin "9"
-			(uuid "2d715c2e-da08-4c1e-b33b-6ec7a3d18457")
-		)
-		(instances
-			(project "Backplane_Board"
-				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/7cc9cec9-7faa-4853-bd66-b7a2d884c738"
-					(reference "U2")
 					(unit 1)
 				)
 			)

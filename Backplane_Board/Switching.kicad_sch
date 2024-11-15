@@ -3466,18 +3466,6 @@
 		)
 		(uuid "ff5a458d-5326-421a-82d6-a828403ede5c")
 	)
-	(text "Note: I do not think this will work! We either need to look into a gate reiver IC,\nor must consider swaping to logic level fets"
-		(exclude_from_sim no)
-		(at 65.786 98.044 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(color 255 81 93 1)
-			)
-			(justify left)
-		)
-		(uuid "82093d00-b4f6-4a82-a4bc-92fd0b837e4d")
-	)
 	(global_label "SW5"
 		(shape input)
 		(at 215.9 129.54 180)

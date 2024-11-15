@@ -2521,7 +2521,7 @@
 	)
 	(text "TODO: Check to see if this brick has an isolator. May need to use a diode or fet for prtoection,\nwhen connecting to the KillSW node. Could possably also use a read SW with 2 chanles\n\nNote: Currently aways on. We do not want to kill the full buss in the event that the kill swtich is pulled"
 		(exclude_from_sim no)
-		(at 45.212 68.58 0)
+		(at 17.526 62.738 0)
 		(effects
 			(font
 				(size 1.27 1.27)
