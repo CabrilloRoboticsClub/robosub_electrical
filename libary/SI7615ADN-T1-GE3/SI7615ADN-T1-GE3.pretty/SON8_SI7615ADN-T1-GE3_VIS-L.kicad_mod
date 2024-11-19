@@ -97,8 +97,8 @@
 		(uuid "30d58a91-24da-4045-9348-48ddcb908a36")
 	)
 	(fp_circle
-		(center -2.105 -0.7588)
-		(end -2.0288 -0.7588)
+		(center -2.1 1.2)
+		(end -2.0238 1.2)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -332,6 +332,12 @@
 		(uuid "f44b664f-f9bd-4e01-b9d3-14ee7219ce0a")
 	)
 	(pad "2" smd rect
+		(at -1.2922 1.2224)
+		(size 0.762 0.3556)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "eb6321da-a7a9-4bac-8a19-13f3412f98d4")
+	)
+	(pad "3" smd rect
 		(at -1.2922 -0.7588)
 		(size 0.762 0.3556)
 		(layers "F.Cu" "F.Paste" "F.Mask")
@@ -348,12 +354,6 @@
 		(size 0.762 0.3556)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "7d10ff47-e9c9-471b-bec0-fd8fe55a5c73")
-	)
-	(pad "3" smd rect
-		(at -1.2922 1.2224)
-		(size 0.762 0.3556)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "eb6321da-a7a9-4bac-8a19-13f3412f98d4")
 	)
 	(model "${robosub_electrical}/SI7615ADN-T1-GE3/SI7615ADN-T1-GE3.STEP"
 		(offset

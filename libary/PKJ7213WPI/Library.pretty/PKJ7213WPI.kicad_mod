@@ -18,7 +18,7 @@
 	(property "Value" "PKJ7213WPI"
 		(at 0 1 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "F.SilkS")
 		(uuid "58844f8b-f2ea-4417-9da1-aa6c4ee9f759")
 		(effects
 			(font
@@ -67,6 +67,17 @@
 		)
 	)
 	(attr through_hole)
+	(fp_rect
+		(start -30 -30.05)
+		(end 30 30.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "43ebe718-ff9c-4514-9932-6f9ea8f0dc8f")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
@@ -80,14 +91,67 @@
 		)
 	)
 	(pad "" np_thru_hole circle
-		(at -12.4 -11.9)
-		(size 2.5 2.5)
-		(drill 1.25)
-		(layers "F&B.Cu" "*.Mask")
+		(at -24.15 -25.4)
+		(size 6.5 6.5)
+		(drill 3.3)
+		(layers "*.Mask")
+		(uuid "b602dd5a-4c02-4220-88f4-91d44a3683d5")
+	)
+	(pad "" np_thru_hole circle
+		(at -24.15 25.4)
+		(size 6.5 6.5)
+		(drill 3.3)
+		(layers "*.Mask")
+		(uuid "bdde93ff-d841-48a8-95e8-a0e2f1f97cf8")
+	)
+	(pad "" np_thru_hole circle
+		(at 24.15 -25.4)
+		(size 6.5 6.5)
+		(drill 3.3)
+		(layers "*.Mask")
 		(uuid "3482a39b-8e21-4402-99ee-6847e0660fc1")
 	)
-	(pad "5" thru_hole circle
+	(pad "" np_thru_hole circle
+		(at 24.15 25.4)
+		(size 6.5 6.5)
+		(drill 3.3)
+		(layers "*.Mask")
+		(uuid "9b4c9135-8044-4e08-b297-c9a5331eef87")
+	)
+	(pad "1" thru_hole circle
+		(at -24.15 17.78)
+		(size 4.5 4.5)
+		(drill 2.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4fa1f7b3-d205-42b3-a7bb-7f6fabdf66e0")
+	)
+	(pad "2" thru_hole circle
+		(at -24.15 7.62)
+		(size 2.5 2.5)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "661e3bbe-58cc-4ba7-ba5e-75a709a1dfc9")
+	)
+	(pad "3" thru_hole circle
+		(at -24.15 -7.62)
+		(size 2.5 2.5)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "713a7e7c-21b3-4e75-8552-0222419345ee")
+	)
+	(pad "4" thru_hole circle
 		(at -24.15 -17.78)
+		(size 4.5 4.5)
+		(drill 2.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "307e90d2-1d5e-4d55-9be1-daa1bef76df4")
+	)
+	(pad "5" thru_hole circle
+		(at 24.15 -17.78)
 		(size 4.5 4.5)
 		(drill 2.4)
 		(layers "*.Cu" "*.Mask")
@@ -95,7 +159,7 @@
 		(uuid "d5b8a430-f650-4b71-bdc8-dd76f5e4eaa2")
 	)
 	(pad "6" thru_hole circle
-		(at -24.15 -7.62)
+		(at 24.15 -7.62)
 		(size 2.5 2.5)
 		(drill 1.25)
 		(layers "*.Cu" "*.Mask")
@@ -103,7 +167,7 @@
 		(uuid "a1b35437-f5c2-462d-8a27-f9a0296a3ffc")
 	)
 	(pad "7" thru_hole circle
-		(at -24.15 0)
+		(at 24.15 0)
 		(size 2.5 2.5)
 		(drill 1.25)
 		(layers "*.Cu" "*.Mask")
@@ -111,7 +175,7 @@
 		(uuid "1558e18a-52e7-4eaa-a054-b62da268dba5")
 	)
 	(pad "8" thru_hole circle
-		(at -24.15 7.62)
+		(at 24.15 7.62)
 		(size 2.5 2.5)
 		(drill 1.25)
 		(layers "*.Cu" "*.Mask")
@@ -119,7 +183,7 @@
 		(uuid "dac0320f-a7bc-4cb9-8c28-8f41bd65acdd")
 	)
 	(pad "9" thru_hole circle
-		(at -24.15 17.78)
+		(at 24.15 17.78)
 		(size 4.5 4.5)
 		(drill 2.4)
 		(layers "*.Cu" "*.Mask")
@@ -129,8 +193,8 @@
 	(group ""
 		(uuid "b2f02070-aed4-43f3-a92b-eb4341496e82")
 		(members "1558e18a-52e7-4eaa-a054-b62da268dba5" "345f008a-ae6d-4bcd-a893-fac8ff409984"
-			"a1b35437-f5c2-462d-8a27-f9a0296a3ffc" "d5b8a430-f650-4b71-bdc8-dd76f5e4eaa2"
-			"dac0320f-a7bc-4cb9-8c28-8f41bd65acdd"
+			"43ebe718-ff9c-4514-9932-6f9ea8f0dc8f" "a1b35437-f5c2-462d-8a27-f9a0296a3ffc"
+			"d5b8a430-f650-4b71-bdc8-dd76f5e4eaa2" "dac0320f-a7bc-4cb9-8c28-8f41bd65acdd"
 		)
 	)
 	(model "${robosub_electrical}/PKJ7213WPI/FPM-3DSTEP-PKJ7200W-simplified-typ.stp"
