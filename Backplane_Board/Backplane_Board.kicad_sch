@@ -2928,7 +2928,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
 			(at 30.48 41.91 0)
 			(effects
 				(font
@@ -3041,6 +3041,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 147.32 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ea2e706-12dd-4dc6-a93e-33f42297e69f")
+		(property "Reference" "D2"
+			(at 151.13 145.0974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Red"
+			(at 151.13 147.6374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 147.32 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e17322ba-111a-469f-9b84-d8333b7f5297")
+		)
+		(pin "2"
+			(uuid "5387d8a5-e6b9-4d29-a987-f2172fd5feba")
+		)
+		(instances
+			(project "Backplane_Board"
+				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
 		(at 50.8 151.13 0)
 		(unit 1)
@@ -3068,7 +3138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 50.8 151.13 0)
 			(effects
 				(font
@@ -3440,7 +3510,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
 			(at 93.98 21.59 0)
 			(effects
 				(font
@@ -3501,7 +3571,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "620"
 			(at 149.86 158.7499 0)
 			(effects
 				(font
@@ -3510,7 +3580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 145.542 157.48 90)
 			(effects
 				(font
@@ -3547,76 +3617,6 @@
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 147.32 144.78 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b69246ad-20d8-4d13-b6f1-9bd5f46fbbe3")
-		(property "Reference" "D2"
-			(at 151.13 145.0974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 151.13 147.6374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 147.32 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb973932-8539-432a-9baf-7d20f2a40604")
-		)
-		(pin "2"
-			(uuid "c6a84827-e3a4-4ca0-bbcb-94ac36cc2fa9")
-		)
-		(instances
-			(project "Backplane_Board"
-				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3856,7 +3856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 109.22 151.13 0)
 			(effects
 				(font
@@ -3906,7 +3906,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ca04fa94-fc6b-42a2-a38a-59e316280731")
 		(property "Reference" "#PWR02"
 			(at 242.57 58.42 0)
@@ -3918,7 +3917,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 57.15 0)
+			(at 242.57 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4124,7 +4123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 92.71 83.82 0)
 			(effects
 				(font
@@ -4260,7 +4259,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
 			(at 158.75 25.4 0)
 			(effects
 				(font

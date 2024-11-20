@@ -2568,7 +2568,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
 			(at 87.122 31.75 90)
 			(effects
 				(font
@@ -2699,7 +2699,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2k"
 			(at 104.14 71.1199 0)
 			(effects
 				(font
@@ -2708,7 +2708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 99.822 69.85 90)
 			(effects
 				(font
@@ -2852,7 +2852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm"
 			(at 231.14 80.01 0)
 			(effects
 				(font
@@ -3058,7 +3058,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 101.6 59.69 0)
 			(effects
 				(font
@@ -3465,7 +3465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm"
 			(at 219.71 80.01 0)
 			(effects
 				(font
@@ -3535,7 +3535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm"
 			(at 207.01 80.01 0)
 			(effects
 				(font
@@ -4038,7 +4038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
 			(at 87.122 43.18 90)
 			(effects
 				(font

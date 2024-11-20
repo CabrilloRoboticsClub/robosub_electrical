@@ -5673,7 +5673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
 			(at 68.58 157.48 0)
 			(effects
 				(font
@@ -5728,7 +5728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21d95e78-2a97-4489-9d67-08297085f29f")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR077"
 			(at 60.96 130.81 0)
 			(effects
 				(font
@@ -5778,7 +5778,7 @@
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "#PWR081")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -5867,7 +5867,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2e597b97-64bc-4f06-8553-70a891f370f7")
-		(property "Reference" "R21"
+		(property "Reference" "R22"
 			(at 168.91 26.6699 0)
 			(effects
 				(font
@@ -5885,7 +5885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 164.592 27.94 90)
 			(effects
 				(font
@@ -5921,7 +5921,7 @@
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "R21")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -6078,7 +6078,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38bef628-496b-4295-af72-75d61ec29a51")
-		(property "Reference" "R26"
+		(property "Reference" "R27"
 			(at 254.762 83.82 90)
 			(effects
 				(font
@@ -6096,7 +6096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
 			(at 252.73 83.058 90)
 			(effects
 				(font
@@ -6132,7 +6132,7 @@
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "R26")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -6165,7 +6165,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 262.89 71.12 0)
 			(effects
 				(font
@@ -6217,7 +6217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47c6206e-e0c0-40db-a572-6ab0108966c6")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR074"
 			(at 240.03 96.52 0)
 			(effects
 				(font
@@ -6267,7 +6267,7 @@
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "#PWR078")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -6283,7 +6283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a80d90a-4af6-42c2-9c00-69f9d0f769f7")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR084"
 			(at 218.44 163.83 0)
 			(effects
 				(font
@@ -6333,7 +6333,7 @@
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "#PWR088")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -6365,7 +6365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
 			(at 31.75 157.48 0)
 			(effects
 				(font
@@ -6682,7 +6682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65ab55d0-77d4-4391-a406-0a6460d34ef0")
-		(property "Reference" "R23"
+		(property "Reference" "R24"
 			(at 121.92 52.0699 0)
 			(effects
 				(font
@@ -6691,7 +6691,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "620"
 			(at 121.92 54.6099 0)
 			(effects
 				(font
@@ -6700,7 +6700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 117.602 53.34 90)
 			(effects
 				(font
@@ -6736,7 +6736,7 @@
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "R23")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -6752,7 +6752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65c68b69-5e83-477c-b09d-8b3a58781c4e")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR087"
 			(at 100.33 166.37 0)
 			(effects
 				(font
@@ -6802,7 +6802,7 @@
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "#PWR091")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -6818,7 +6818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67c91722-4b2e-4ac6-9f86-256f1fc52d91")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR083"
 			(at 158.75 163.83 0)
 			(effects
 				(font
@@ -6868,7 +6868,7 @@
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "#PWR087")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -6955,7 +6955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e5c2ad6-92ee-4266-8886-08b7ca7f4ea7")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR066"
 			(at 154.94 24.13 0)
 			(effects
 				(font
@@ -7005,7 +7005,7 @@
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "#PWR070")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -7020,7 +7020,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71422538-3494-4ea4-92b9-afe62899e032")
-		(property "Reference" "R24"
+		(property "Reference" "R25"
 			(at 254.762 63.5 90)
 			(effects
 				(font
@@ -7038,7 +7038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
 			(at 252.73 62.738 90)
 			(effects
 				(font
@@ -7074,7 +7074,7 @@
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "R24")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -7090,7 +7090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72077752-a51a-46b5-99b7-fa2fae1aedb9")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR070"
 			(at 30.48 33.02 0)
 			(effects
 				(font
@@ -7140,7 +7140,7 @@
 		(instances
 			(project ""
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "#PWR074")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -7172,7 +7172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
 			(at 110.49 121.92 0)
 			(effects
 				(font
@@ -7227,7 +7227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7415f676-9d26-40f1-a5eb-1dc8e81cb697")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR075"
 			(at 214.63 100.33 0)
 			(effects
 				(font
@@ -7277,7 +7277,7 @@
 		(instances
 			(project ""
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "#PWR079")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -7293,7 +7293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74967586-82b6-4d25-9704-f60e82927a25")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR085"
 			(at 22.86 166.37 0)
 			(effects
 				(font
@@ -7343,7 +7343,7 @@
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "#PWR089")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -7376,7 +7376,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical"
 			(at 270.51 140.97 0)
 			(effects
 				(font
@@ -7434,7 +7434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d1190ba-51ae-4b39-a8c0-5b398708ab11")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR078"
 			(at 101.6 130.81 0)
 			(effects
 				(font
@@ -7484,7 +7484,7 @@
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "#PWR082")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -7516,7 +7516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
 			(at 69.85 121.92 0)
 			(effects
 				(font
@@ -7570,7 +7570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98e27c96-fdce-4fc8-91d3-a1c3cdd05f85")
-		(property "Reference" "R22"
+		(property "Reference" "R23"
 			(at 60.96 45.466 90)
 			(effects
 				(font
@@ -7586,7 +7586,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 60.96 44.958 90)
 			(effects
 				(font
@@ -7622,7 +7622,7 @@
 		(instances
 			(project ""
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "R22")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -7638,7 +7638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b376d98-5492-4137-811d-2769a69f23d7")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR076"
 			(at 24.13 130.81 0)
 			(effects
 				(font
@@ -7688,7 +7688,7 @@
 		(instances
 			(project ""
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "#PWR080")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -7704,7 +7704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bf6acca-1d10-4558-83c4-3b84fb943cf3")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR080"
 			(at 158.75 143.51 0)
 			(effects
 				(font
@@ -7754,7 +7754,7 @@
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "#PWR084")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -7858,7 +7858,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 262.89 60.96 0)
 			(effects
 				(font
@@ -7909,7 +7909,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "acd6b406-38dc-4d13-96ff-57baeaabea09")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR079"
 			(at 260.35 137.16 0)
 			(effects
 				(font
@@ -7959,7 +7959,7 @@
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "#PWR083")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -7975,7 +7975,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "acdbfa42-1553-48c0-a887-1341b1b55265")
-		(property "Reference" "R20"
+		(property "Reference" "R21"
 			(at 157.48 26.6699 0)
 			(effects
 				(font
@@ -7993,7 +7993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 153.162 27.94 90)
 			(effects
 				(font
@@ -8029,7 +8029,7 @@
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "R20")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -8063,7 +8063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical"
 			(at 231.14 146.05 0)
 			(effects
 				(font
@@ -8140,7 +8140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
 			(at 109.22 157.48 0)
 			(effects
 				(font
@@ -8213,7 +8213,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 250.19 29.21 0)
 			(effects
 				(font
@@ -8265,7 +8265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b56cf594-14a8-4322-835e-51c424235adc")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR081"
 			(at 218.44 140.97 0)
 			(effects
 				(font
@@ -8315,7 +8315,7 @@
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "#PWR085")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -8330,7 +8330,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b636bf88-d5c2-4852-8dfb-11d344d7ec2f")
-		(property "Reference" "R25"
+		(property "Reference" "R26"
 			(at 254.762 73.66 90)
 			(effects
 				(font
@@ -8348,7 +8348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
 			(at 252.73 72.898 90)
 			(effects
 				(font
@@ -8384,7 +8384,7 @@
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "R25")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -8400,7 +8400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf1c5473-ee10-4c70-995b-b5fed2dad64b")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR068"
 			(at 250.19 25.4 0)
 			(effects
 				(font
@@ -8450,7 +8450,7 @@
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "#PWR072")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -8556,7 +8556,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 262.89 81.28 0)
 			(effects
 				(font
@@ -8608,7 +8608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb201d4e-31ec-4df1-9666-63e32f79e948")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR073"
 			(at 193.04 96.52 0)
 			(effects
 				(font
@@ -8658,7 +8658,7 @@
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "#PWR077")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -8674,7 +8674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc772b66-7ea0-4441-ba4d-9a7f38efb336")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR082"
 			(at 247.65 140.97 0)
 			(effects
 				(font
@@ -8724,7 +8724,7 @@
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "#PWR086")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -8740,7 +8740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7770874-3d3c-409c-ae7d-cd670ddc49ac")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR086"
 			(at 59.69 166.37 0)
 			(effects
 				(font
@@ -8790,7 +8790,7 @@
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "#PWR090")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -8806,7 +8806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dca935a5-0204-4b9e-9ed9-56d0e2226454")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR069"
 			(at 273.05 29.21 0)
 			(effects
 				(font
@@ -8856,7 +8856,7 @@
 		(instances
 			(project ""
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "#PWR073")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -8959,7 +8959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
 			(at 33.02 121.92 0)
 			(effects
 				(font
@@ -9032,7 +9032,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 119.38 43.18 0)
 			(effects
 				(font
@@ -9084,7 +9084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f374053c-17ea-4da2-ae6a-a37a486814ee")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR067"
 			(at 166.37 24.13 0)
 			(effects
 				(font
@@ -9134,7 +9134,7 @@
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "#PWR071")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -9150,7 +9150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f460d392-548d-4393-9521-3cd1e7070fcf")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR072"
 			(at 274.32 93.98 0)
 			(effects
 				(font
@@ -9200,7 +9200,7 @@
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "#PWR076")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -9216,7 +9216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4a71cdc-53d5-4773-9673-9374e1bcea45")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR071"
 			(at 119.38 66.04 0)
 			(effects
 				(font
@@ -9266,7 +9266,7 @@
 		(instances
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/be50f6f1-2baa-4c10-879d-c3252e5de752"
-					(reference "#PWR075")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
