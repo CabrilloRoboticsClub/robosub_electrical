@@ -2637,7 +2637,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "C2012X5R1V226M125AC:CAPC2012X145N"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 243.84 139.7 0)
 			(effects
 				(font
@@ -2708,7 +2708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 99.822 69.85 90)
 			(effects
 				(font
@@ -3127,7 +3127,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "C2012X5R1V226M125AC:CAPC2012X145N"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 204.47 139.7 0)
 			(effects
 				(font
@@ -3329,7 +3329,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "C2012X5R1V226M125AC:CAPC2012X145N"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 224.79 139.7 0)
 			(effects
 				(font
@@ -3897,7 +3897,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "C2012X5R1V226M125AC:CAPC2012X145N"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 186.69 139.7 0)
 			(effects
 				(font
