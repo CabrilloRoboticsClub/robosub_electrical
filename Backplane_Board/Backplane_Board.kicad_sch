@@ -1896,6 +1896,12 @@
 		(uuid "8d38652c-207c-4f7f-9706-e994b1c3fb42")
 	)
 	(junction
+		(at 57.15 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d7f9648-cb12-41ef-b33f-e29a371717cf")
+	)
+	(junction
 		(at 130.81 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2002,6 +2008,16 @@
 			(type default)
 		)
 		(uuid "0e186b2f-c4b2-4b73-a08f-1895b34f7b5a")
+	)
+	(wire
+		(pts
+			(xy 57.15 41.91) (xy 69.85 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10109e90-3ac8-449d-b63b-a2a8cebce25a")
 	)
 	(wire
 		(pts
@@ -2205,6 +2221,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 24.13) (xy 57.15 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6690012f-6d51-43f3-9bcc-2831706ecb7d")
+	)
+	(wire
+		(pts
 			(xy 35.56 41.91) (xy 50.8 41.91)
 		)
 		(stroke
@@ -2405,7 +2431,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 41.91) (xy 69.85 41.91)
+			(xy 50.8 41.91) (xy 57.15 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2482,6 +2508,16 @@
 			(type default)
 		)
 		(uuid "dc40e345-1bbd-44f7-8091-357ef02ceeb1")
+	)
+	(wire
+		(pts
+			(xy 57.15 24.13) (xy 57.15 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de49b890-9aea-475c-825d-48b60071d682")
 	)
 	(wire
 		(pts
@@ -2707,6 +2743,28 @@
 		(uuid "8b18188c-e2e2-4e9a-a52b-71e9340a2d81")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 144.0762 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWR_IN"
+		(shape input)
+		(at 59.69 24.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dcc3392c-ee93-4513-92cd-6ce741723012")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.5695 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,7 +3568,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm"
+		(property "Footprint" "Connector_Wire:SolderWire-0.127sqmm_1x02_P3.7mm_D0.48mm_OD1mm"
 			(at 93.98 21.59 0)
 			(effects
 				(font
@@ -4259,7 +4317,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm"
+		(property "Footprint" "Connector_Wire:SolderWire-0.127sqmm_1x02_P3.7mm_D0.48mm_OD1mm"
 			(at 158.75 25.4 0)
 			(effects
 				(font

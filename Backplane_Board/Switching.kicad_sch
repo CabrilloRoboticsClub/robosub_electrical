@@ -1175,126 +1175,6 @@
 				)
 			)
 		)
-		(symbol "power:+12V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -1775,16 +1655,6 @@
 			(type default)
 		)
 		(uuid "06dd201e-c634-442c-90df-4ef0842a9a15")
-	)
-	(wire
-		(pts
-			(xy 162.56 20.32) (xy 162.56 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07295e24-3083-4e62-a568-8118c3b3bea1")
 	)
 	(wire
 		(pts
@@ -2525,16 +2395,6 @@
 			(type default)
 		)
 		(uuid "73865a83-d40b-4f8c-95e8-d8b05155e57b")
-	)
-	(wire
-		(pts
-			(xy 82.55 20.32) (xy 82.55 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7442220c-01e4-4801-95ad-b87bf2c960b7")
 	)
 	(wire
 		(pts
@@ -3378,16 +3238,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 19.05) (xy 248.92 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1c26f42-30e7-4675-86f7-5a862a5390d0")
-	)
-	(wire
-		(pts
 			(xy 72.39 140.97) (xy 72.39 144.78)
 		)
 		(stroke
@@ -3486,6 +3336,28 @@
 		)
 		(uuid "ff5a458d-5326-421a-82d6-a828403ede5c")
 	)
+	(global_label "12V_ESC"
+		(shape input)
+		(at 248.92 21.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e7b6c79-567d-4868-989a-c00910815e5c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.0089 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SW5"
 		(shape input)
 		(at 215.9 129.54 180)
@@ -3570,6 +3442,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_ESC"
+		(shape input)
+		(at 162.56 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c5861d2-e59e-484c-b33c-a70219ed32f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.6489 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_ESC"
+		(shape input)
+		(at 82.55 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c420b878-1a1e-4170-8392-67fbbc07f75d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.6389 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3881,72 +3797,6 @@
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/31bf6b29-9be4-43f9-9eab-c84ca2b3429e"
 					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 82.55 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e2a0b6e-b38b-4c54-b233-78627250ce64")
-		(property "Reference" "#PWR083"
-			(at 82.55 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 82.55 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 82.55 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9948930-9ea7-4ff9-a808-5eeb65da0ad8")
-		)
-		(instances
-			(project "Backplane_Board"
-				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/31bf6b29-9be4-43f9-9eab-c84ca2b3429e"
-					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -6461,72 +6311,6 @@
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/31bf6b29-9be4-43f9-9eab-c84ca2b3429e"
 					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 248.92 19.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d7f6c54-a6e1-452c-ac23-e454c7ff5493")
-		(property "Reference" "#PWR082"
-			(at 248.92 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 248.92 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 248.92 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3298e311-aa2f-43ba-b600-9f81fcba6dae")
-		)
-		(instances
-			(project "Backplane_Board"
-				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/31bf6b29-9be4-43f9-9eab-c84ca2b3429e"
-					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -9595,72 +9379,6 @@
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/31bf6b29-9be4-43f9-9eab-c84ca2b3429e"
 					(reference "J37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 162.56 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2221c5a-c657-4f9c-b386-4016c455e43e")
-		(property "Reference" "#PWR084"
-			(at 162.56 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 162.56 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 162.56 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "425287f3-00ee-4d72-be6c-9b200d50e3a2")
-		)
-		(instances
-			(project "Backplane_Board"
-				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4/31bf6b29-9be4-43f9-9eab-c84ca2b3429e"
-					(reference "#PWR084")
 					(unit 1)
 				)
 			)
