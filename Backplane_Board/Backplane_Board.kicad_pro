@@ -6,7 +6,7 @@
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
-        "board_outline_line_width": 0.05,
+        "board_outline_line_width": 0.1,
         "copper_line_width": 0.2,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
@@ -30,7 +30,7 @@
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
-        "other_line_width": 0.1,
+        "other_line_width": 0.15,
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
@@ -41,11 +41,11 @@
           "height": 1.397,
           "width": 1.1938
         },
-        "silk_line_width": 0.1,
+        "silk_line_width": 0.15,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.2
@@ -64,7 +64,7 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "warning",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -76,7 +76,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "holes_co_located": "warning",
@@ -93,7 +93,7 @@
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "ignore",
-        "padstack": "warning",
+        "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
@@ -119,18 +119,18 @@
         "min_clearance": 0.16,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
-        "min_hole_clearance": 0.2,
+        "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.2,
-        "min_microvia_drill": 0.15,
+        "min_microvia_diameter": 0.6858,
+        "min_microvia_drill": 0.3302,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.16,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.127,
+        "min_via_diameter": 0.69,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -179,12 +179,10 @@
       ],
       "track_widths": [
         0.0,
-        0.15,
         0.5,
         1.0,
         1.5,
-        2.5,
-        4.0
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -218,12 +216,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.5,
-          "drill": 0.2
+          "diameter": 2.0,
+          "drill": 1.0
         },
         {
-          "diameter": 1.1,
-          "drill": 0.7
+          "diameter": 3.0,
+          "drill": 2.0
         }
       ],
       "zones_allow_external_fillets": false
@@ -465,19 +463,19 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
-        "diff_pair_gap": 0.2,
+        "clearance": 0.26,
+        "diff_pair_gap": 0.26,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.26,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.77,
+        "microvia_drill": 0.39,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.5,
-        "via_drill": 0.15,
+        "track_width": 0.26,
+        "via_diameter": 0.7,
+        "via_drill": 0.32,
         "wire_width": 6
       }
     ],
@@ -489,12 +487,7 @@
       "I2C+": "SDA",
       "I2C-": "SCL"
     },
-    "netclass_patterns": [
-      {
-        "netclass": "Default",
-        "pattern": "60V"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
