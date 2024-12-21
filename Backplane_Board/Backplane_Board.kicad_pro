@@ -660,6 +660,10 @@
     [
       "31bf6b29-9be4-43f9-9eab-c84ca2b3429e",
       "Switching"
+    ],
+    [
+      "5bff8e4d-59c9-4f86-b140-0d3398ae831d",
+      "Debug"
     ]
   ],
   "text_variables": {}

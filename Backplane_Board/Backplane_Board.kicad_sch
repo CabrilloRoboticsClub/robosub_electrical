@@ -4360,8 +4360,8 @@
 		)
 	)
 	(sheet
-		(at 243.84 109.22)
-		(size 31.75 22.86)
+		(at 246.38 95.25)
+		(size 33.02 13.97)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4372,7 +4372,7 @@
 		)
 		(uuid "31bf6b29-9be4-43f9-9eab-c84ca2b3429e")
 		(property "Sheetname" "Switching"
-			(at 243.84 108.5084 0)
+			(at 246.38 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4381,7 +4381,7 @@
 			)
 		)
 		(property "Sheetfile" "Switching.kicad_sch"
-			(at 243.84 132.6646 0)
+			(at 246.38 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4398,8 +4398,46 @@
 		)
 	)
 	(sheet
-		(at 198.12 107.95)
-		(size 38.1 26.67)
+		(at 246.38 133.35)
+		(size 33.02 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5bff8e4d-59c9-4f86-b140-0d3398ae831d")
+		(property "Sheetname" "Debug"
+			(at 246.38 132.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Debug.kicad_sch"
+			(at 246.38 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Backplane_Board"
+				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 95.25)
+		(size 38.1 12.7)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4410,7 +4448,7 @@
 		)
 		(uuid "7b71b6ce-8c47-4c65-b8c9-3da018ee1e8e")
 		(property "Sheetname" "Power_Connectors"
-			(at 198.12 107.2384 0)
+			(at 196.85 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4419,7 +4457,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_Connectors.kicad_sch"
-			(at 198.12 135.2046 0)
+			(at 196.85 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4437,7 +4475,7 @@
 	)
 	(sheet
 		(at 245.11 72.39)
-		(size 35.56 24.13)
+		(size 34.29 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4457,7 +4495,7 @@
 			)
 		)
 		(property "Sheetfile" "12V_Power_Bus.kicad_sch"
-			(at 245.11 97.1046 0)
+			(at 245.11 88.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4474,8 +4512,8 @@
 		)
 	)
 	(sheet
-		(at 199.39 146.05)
-		(size 33.02 12.7)
+		(at 199.39 120.65)
+		(size 33.02 8.89)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4486,7 +4524,7 @@
 		)
 		(uuid "829c4f27-479c-4774-bd79-d7d13a3cb460")
 		(property "Sheetname" "BMS_Data"
-			(at 199.39 145.3384 0)
+			(at 199.39 119.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4495,7 +4533,7 @@
 			)
 		)
 		(property "Sheetfile" "BMS_Data.kicad_sch"
-			(at 199.39 159.3346 0)
+			(at 199.39 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4512,7 +4550,7 @@
 		)
 	)
 	(sheet
-		(at 241.3 148.59)
+		(at 246.38 120.65)
 		(size 33.02 8.89)
 		(fields_autoplaced yes)
 		(stroke
@@ -4524,7 +4562,7 @@
 		)
 		(uuid "be50f6f1-2baa-4c10-879d-c3252e5de752")
 		(property "Sheetname" "BoardBoardConnections"
-			(at 241.3 147.8784 0)
+			(at 246.38 119.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4533,7 +4571,7 @@
 			)
 		)
 		(property "Sheetfile" "BoardBoardConnections.kicad_sch"
-			(at 241.3 158.0646 0)
+			(at 246.38 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4551,7 +4589,7 @@
 	)
 	(sheet
 		(at 195.58 72.39)
-		(size 41.91 26.67)
+		(size 39.37 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4571,7 +4609,7 @@
 			)
 		)
 		(property "Sheetfile" "ESC_Power_Bus.kicad_sch"
-			(at 195.58 99.6446 0)
+			(at 195.58 88.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
