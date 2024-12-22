@@ -497,7 +497,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Backplane_Board.step",
       "svg": "",
       "vrml": ""
     },

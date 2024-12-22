@@ -334,6 +334,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Polarized_Small_US"
 			(pin_numbers hide)
 			(pin_names
@@ -1890,6 +1992,12 @@
 		(uuid "416bbccb-a3b0-4da6-8f7e-865f6e2ac967")
 	)
 	(junction
+		(at 76.2 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5069535b-15b8-495f-b906-1c6f5e9b9815")
+	)
+	(junction
 		(at 92.71 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2061,6 +2169,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 63.5) (xy 76.2 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "199ec5f0-a185-4afd-833a-f4c9574f458d")
+	)
+	(wire
+		(pts
 			(xy 92.71 76.2) (xy 92.71 81.28)
 		)
 		(stroke
@@ -2118,6 +2236,16 @@
 			(type default)
 		)
 		(uuid "2cadcde3-f734-4a84-8aa8-a0bf8fc1286d")
+	)
+	(wire
+		(pts
+			(xy 59.69 63.5) (xy 76.2 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d3bc60-ff21-47a6-bf13-1ba0b215b707")
 	)
 	(wire
 		(pts
@@ -2181,7 +2309,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 52.07) (xy 76.2 73.66)
+			(xy 76.2 52.07) (xy 76.2 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2579,6 +2707,16 @@
 		)
 		(uuid "fd3f6043-7f00-4428-9b3e-274958b25ae6")
 	)
+	(wire
+		(pts
+			(xy 59.69 68.58) (xy 59.69 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe687990-3e9f-4b09-8db2-61e1ffc42296")
+	)
 	(rectangle
 		(start 19.05 116.84)
 		(end 167.64 182.88)
@@ -2955,6 +3093,73 @@
 			(project "Backplane_Board"
 				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 59.69 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23795fe5-4a70-4b45-8a97-aece4cb4652f")
+		(property "Reference" "TP5"
+			(at 62.23 70.6119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 62.23 73.1519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+			(at 54.61 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 59.69 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7571d0d4-3cce-4cfd-afa6-76d897795ddf")
+		)
+		(instances
+			(project "Backplane_Board"
+				(path "/4484cfee-9e43-4cef-88b4-a8ca308542b4"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -3545,10 +3750,10 @@
 		(at 93.98 21.59 270)
 		(mirror x)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "a5b48d51-8353-4140-80bb-a3fbc48f3978")
 		(property "Reference" "J1"
 			(at 98.044 22.352 90)
@@ -4294,10 +4499,10 @@
 		(at 158.75 25.4 270)
 		(mirror x)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "f71d15ed-0044-4a87-b3c2-91ad53c672b1")
 		(property "Reference" "J2"
 			(at 162.814 26.162 90)
