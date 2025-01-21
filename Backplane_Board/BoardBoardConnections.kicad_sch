@@ -5049,7 +5049,6 @@
 	)
 	(label "DEBUG+"
 		(at 171.45 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5060,7 +5059,6 @@
 	)
 	(label "DEBUG-"
 		(at 171.45 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5071,7 +5069,6 @@
 	)
 	(label "DEBUG-"
 		(at 220.98 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5082,7 +5079,6 @@
 	)
 	(label "DEBUG+"
 		(at 208.28 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
