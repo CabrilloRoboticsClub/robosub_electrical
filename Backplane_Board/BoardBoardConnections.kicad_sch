@@ -4995,7 +4995,7 @@
 		)
 		(uuid "b6a322d9-d10f-44ea-b05e-e93040b16a90")
 	)
-	(text "1:2 divider"
+	(text "2/3 divider"
 		(exclude_from_sim no)
 		(at 161.036 93.98 0)
 		(effects
@@ -7553,7 +7553,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "620"
+		(property "Value" "1k"
 			(at 121.92 54.6099 0)
 			(effects
 				(font

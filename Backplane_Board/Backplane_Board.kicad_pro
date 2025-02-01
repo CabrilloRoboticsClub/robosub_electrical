@@ -58,7 +58,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|190575000|27500000|32797e98-5a49-4789-85a7-9f6db6096994|4caa110e-cba9-42de-9187-f0071b2d870e",
+        "clearance|191275000|35350000|f45d701b-c0d3-4e5b-8f41-79c88950a7ea|0ee2a546-08c6-4b00-b6bb-c1e571f933fc"
+      ],
       "meta": {
         "version": 2
       },
@@ -494,7 +497,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../Fabrication/Backplane_Board_Fab/Backplane_Board_Gerber_REV1/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Backplane_Board.step",

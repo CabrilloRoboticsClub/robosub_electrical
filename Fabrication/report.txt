@@ -1,0 +1,13 @@
+Plotted to '/home/isaacw/Documents/github/robosub_electrical/Fabrication/Backplane_Board_Fab/Backplane_Board_Gerber_REV1/Backplane_Board-F_Cu.gbr'.
+Plotted to '/home/isaacw/Documents/github/robosub_electrical/Fabrication/Backplane_Board_Fab/Backplane_Board_Gerber_REV1/Backplane_Board-gnd_Cu.gbr'.
+Plotted to '/home/isaacw/Documents/github/robosub_electrical/Fabrication/Backplane_Board_Fab/Backplane_Board_Gerber_REV1/Backplane_Board-pwr_Cu.gbr'.
+Plotted to '/home/isaacw/Documents/github/robosub_electrical/Fabrication/Backplane_Board_Fab/Backplane_Board_Gerber_REV1/Backplane_Board-B_Cu.gbr'.
+Plotted to '/home/isaacw/Documents/github/robosub_electrical/Fabrication/Backplane_Board_Fab/Backplane_Board_Gerber_REV1/Backplane_Board-F_Paste.gbr'.
+Plotted to '/home/isaacw/Documents/github/robosub_electrical/Fabrication/Backplane_Board_Fab/Backplane_Board_Gerber_REV1/Backplane_Board-B_Paste.gbr'.
+Plotted to '/home/isaacw/Documents/github/robosub_electrical/Fabrication/Backplane_Board_Fab/Backplane_Board_Gerber_REV1/Backplane_Board-F_Silkscreen.gbr'.
+Plotted to '/home/isaacw/Documents/github/robosub_electrical/Fabrication/Backplane_Board_Fab/Backplane_Board_Gerber_REV1/Backplane_Board-B_Silkscreen.gbr'.
+Plotted to '/home/isaacw/Documents/github/robosub_electrical/Fabrication/Backplane_Board_Fab/Backplane_Board_Gerber_REV1/Backplane_Board-F_Mask.gbr'.
+Plotted to '/home/isaacw/Documents/github/robosub_electrical/Fabrication/Backplane_Board_Fab/Backplane_Board_Gerber_REV1/Backplane_Board-B_Mask.gbr'.
+Plotted to '/home/isaacw/Documents/github/robosub_electrical/Fabrication/Backplane_Board_Fab/Backplane_Board_Gerber_REV1/Backplane_Board-Edge_Cuts.gbr'.
+Created Gerber job file '/home/isaacw/Documents/github/robosub_electrical/Fabrication/Backplane_Board_Fab/Backplane_Board_Gerber_REV1/Backplane_Board-job.gbrjob'.
+Info: Done.

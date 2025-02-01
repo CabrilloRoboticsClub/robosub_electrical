@@ -3469,7 +3469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ZXTR2005ZQ-13:SOT-89_4P5X2P45_DIO-M"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3_Handsoldering"
 			(at 82.042 128.143 0)
 			(effects
 				(font
@@ -3834,7 +3834,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "620"
+		(property "Value" "1k"
 			(at 149.86 158.7499 0)
 			(effects
 				(font
